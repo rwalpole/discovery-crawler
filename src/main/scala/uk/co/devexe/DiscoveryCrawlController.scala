@@ -12,11 +12,15 @@ class DiscoveryCrawlController {
   def start() = {
 
     val config = new CrawlConfig
-    config.setCrawlStorageFolder("C:\\Temp\\discovery-crawler");
+    config.setCrawlStorageFolder("C:\\Temp\\discovery-crawler")
+    config.setMaxDepthOfCrawling(1);
+
     val pageFetcher = new PageFetcher(config)
+
     val robotstxtConfig = new RobotstxtConfig
     robotstxtConfig.setEnabled(false)
     val robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher)
+
     val controller = new CrawlController(config,pageFetcher, robotstxtServer)
     controller.addSeed("http://discovery.nationalarchives.gov.uk//browse/r/h/C1")
 

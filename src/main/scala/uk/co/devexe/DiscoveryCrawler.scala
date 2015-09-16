@@ -5,11 +5,14 @@ import edu.uci.ics.crawler4j.parser.{HtmlParseData, ParseData}
 import edu.uci.ics.crawler4j.url.WebURL
 import java.util.regex.Pattern
 
+import org.slf4j.LoggerFactory
+
 /**
  * Created by walpolrx on 16/09/2015.
  */
 class DiscoveryCrawler extends WebCrawler {
 
+  val LOG = LoggerFactory.getLogger(classOf[DiscoveryCrawlController]);
   val IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$")
 
   override def shouldVisit(referringPage: Page, url: WebURL): Boolean = {
@@ -20,8 +23,8 @@ class DiscoveryCrawler extends WebCrawler {
       return false;
     }
 
-    // Only accept the url if it is in the "www.ics.uci.edu" domain and protocol is "http".
-    return href.startsWith("http://discovery.nationalarchives.gov.uk/");
+    href.startsWith("http://discovery.nationalarchives.gov.uk/")
+
   }
 
   /**
@@ -30,7 +33,7 @@ class DiscoveryCrawler extends WebCrawler {
    */
   override def visit(page: Page) = {
     val url = page.getWebURL.getURL
-    System.out.println("URL: " + url)
+    LOG.info("URL: " + url)
     process(page.getParseData)
   }
 
@@ -40,9 +43,9 @@ class DiscoveryCrawler extends WebCrawler {
       val html = htmlParseData.getHtml
       val links = htmlParseData.getOutgoingUrls
 
-      System.out.println("Text length: " + text.length)
-      System.out.println("Html length: " + html.length)
-      System.out.println("Number of outgoing links: " + links.size)
+      //LOG.info("Text length: " + text.length)
+      //LOG.info("Html length: " + html.length)
+      //LOG.info("Number of outgoing links: " + links.size)
     }
     case _ => System.out.println(parseData.getClass)
   }
