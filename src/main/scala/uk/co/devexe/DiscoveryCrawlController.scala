@@ -13,7 +13,7 @@ class DiscoveryCrawlController {
 
     val config = new CrawlConfig
     config.setCrawlStorageFolder("C:\\Temp\\discovery-crawler")
-    config.setMaxDepthOfCrawling(1);
+    config.setMaxDepthOfCrawling(2);
 
     val pageFetcher = new PageFetcher(config)
 
@@ -22,7 +22,7 @@ class DiscoveryCrawlController {
     val robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher)
 
     val controller = new CrawlController(config,pageFetcher, robotstxtServer)
-    controller.addSeed("http://discovery.nationalarchives.gov.uk//browse/r/h/C1")
+    controller.addSeed("http://discovery.nationalarchives.gov.uk/browse")
 
     /*
      * Start the crawl. This is a blocking operation, meaning that your code

@@ -14,13 +14,20 @@ class DiscoveryCrawler extends WebCrawler {
 
   val LOG = LoggerFactory.getLogger(classOf[DiscoveryCrawlController]);
   val IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$")
+  val BROWSE_PATTERN = Pattern.compile("http://.*\\.*/browse/r/h/.*")
+
+  var counter = 0
 
   override def shouldVisit(referringPage: Page, url: WebURL): Boolean = {
     val href = url.getURL.toLowerCase
 
     // Ignore the url if it has an extension that matches our defined set of image extensions.
-    if (IMAGE_EXTENSIONS.matcher(href).matches()) {
+    if(IMAGE_EXTENSIONS.matcher(href).matches()) {
       return false;
+    }
+
+    if(!BROWSE_PATTERN.matcher(href).matches()) {
+      return false
     }
 
     href.startsWith("http://discovery.nationalarchives.gov.uk/")
@@ -33,8 +40,10 @@ class DiscoveryCrawler extends WebCrawler {
    */
   override def visit(page: Page) = {
     val url = page.getWebURL.getURL
-    LOG.info("URL: " + url)
-    process(page.getParseData)
+    counter = counter + 1;
+    LOG.info("URL: " + url + " Count=" + counter)
+    CrawlLogger.log(url)
+    //process(page.getParseData)
   }
 
   def process(parseData: ParseData) = parseData match {
