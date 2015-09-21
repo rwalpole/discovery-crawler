@@ -9,11 +9,12 @@ import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
  */
 class DiscoveryCrawlController {
 
-  def start() = {
+  def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {
 
     val config = new CrawlConfig
     config.setCrawlStorageFolder("C:\\Temp\\discovery-crawler")
-    config.setMaxDepthOfCrawling(2);
+    config.setMaxDepthOfCrawling(depth);
+    config.setPolitenessDelay(politenessMillisOpt.getOrElse(200));
 
     val pageFetcher = new PageFetcher(config)
 
@@ -28,7 +29,7 @@ class DiscoveryCrawlController {
      * Start the crawl. This is a blocking operation, meaning that your code
      * will reach the line after this only when crawling is finished.
      */
-    controller.start(classOf[DiscoveryCrawler], 1)
+    controller.start(classOf[DiscoveryCrawler], crawlers)
 
   }
 

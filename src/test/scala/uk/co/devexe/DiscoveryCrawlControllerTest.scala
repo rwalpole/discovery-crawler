@@ -12,7 +12,7 @@ class DiscoveryCrawlControllerTest {
   @Test
   def testRun() = {
     val controller = new DiscoveryCrawlController
-    controller.start
+    controller.start(1,1, Some(1000))
   }
 
 

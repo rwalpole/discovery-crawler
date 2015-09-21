@@ -1,5 +1,7 @@
 package uk.co.devexe
 
+import java.util.concurrent.atomic.AtomicInteger
+
 import edu.uci.ics.crawler4j.crawler.{Page, WebCrawler}
 import edu.uci.ics.crawler4j.parser.{HtmlParseData, ParseData}
 import edu.uci.ics.crawler4j.url.WebURL
@@ -16,7 +18,7 @@ class DiscoveryCrawler extends WebCrawler {
   val IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$")
   val BROWSE_PATTERN = Pattern.compile("http://.*\\.*/browse/r/h/.*")
 
-  var counter = 0
+  val counter = new AtomicInteger(0)
 
   override def shouldVisit(referringPage: Page, url: WebURL): Boolean = {
     val href = url.getURL.toLowerCase
@@ -40,9 +42,11 @@ class DiscoveryCrawler extends WebCrawler {
    */
   override def visit(page: Page) = {
     val url = page.getWebURL.getURL
-    counter = counter + 1;
-    LOG.info("URL: " + url + " Count=" + counter)
-    CrawlLogger.log(url)
+    //counter = counter + 1;
+    LOG.info("URL: " + url + " Count=" + counter.incrementAndGet())
+    if(!url.contains('?') && url.contains("r/h/C")) {
+      CrawlLogger.log(url) // We only want to log files without query params and where the reference starts with 'C'
+    }
     //process(page.getParseData)
   }
 
