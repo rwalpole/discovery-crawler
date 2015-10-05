@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en-gb" class="no-js">
+<head>
+<meta name="generator"
+content="HTML Tidy for HTML5 for Windows version 5.1.14" />
+<meta charset="utf-8" />
+<title>Browse our catalogue | The National Archives</title>
+<meta http-equiv="Content-Type"
+content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="initial-scale=1.0" />
+<meta name="keywords"
+content="government information, archive, history, information management, national archives, public records, manuscripts, documents" />
+<meta name="description"
+content="The official archive of the UK government. Our vision is to lead and transform information management, guarantee the survival of today's information for tomorrow and bring history to life for everyone." />
+<meta name="DC.identifier" scheme="DCTERMS.URI"
+content="http://www.nationalarchives.gov.uk/default.htm" />
+<meta name="DC.title" content="The Discovery Service" />
+<meta name="DC.rights"
+content="http://www.nationalarchives.gov.uk/legal/copyright.htm" />
+<meta name="DC.publisher" content="The National Archives" />
+<meta name="DC.creator" content="The National Archives" />
+<meta name="DC.language" content="en-GB" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DCTERMS.created" scheme="DCTERMS.W3CDTF"
+content="2008-12-18" />
+<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF"
+content="2009-08-12" />
+<meta name="DC.subject"
+content="Public Records, National Archives, History, Government, Documents" />
+<meta name="DCTERMS.temporal" content="1900-2000" />
+<meta name="DCTERMS.spatial"
+content="England,Wales,UnitedKingdom" />
+<meta name="DC.description"
+content="The National Archives is the UK government's official archive. Our main duties are to preserve Government records and to set standards in information management and re-use." />
+<meta name="eGMS.subject.category" scheme="GCL"
+content="Libraries and archives" />
+<meta name="WT.cg_n" content="Browse hierarchy" />
+<meta name="DCSext.docref" content="A" />
+<link href="http://discovery.nationalarchives.gov.uk/Content/compiled-css/main.min.4.0.0.css"
+type="text/css" rel="stylesheet" />
+<!--[if IE 7]>
+        <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer7.css">
+    <![endif]-->
+<!--[if IE 8]>
+        <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer8.css">
+    <![endif]-->
+<!--[if IE 9]>
+        <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer9.css">
+    <![endif]-->
+<script src="http://discovery.nationalarchives.gov.uk/Scripts/modernizr.min.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+        <script src="http://discovery.nationalarchives.gov.uk/Scripts/respond.min.js"></script>
+    <![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Bitter'
+rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans'
+rel='stylesheet' type='text/css' />
+<link href="http://discovery.nationalarchives.gov.uk/Content/images/favicon.ico"
+type="image/x-icon" rel="Shortcut Icon" />
+<link href="http://discovery.nationalarchives.gov.uk/Content/images/favicon.ico"
+type="image/x-icon" rel="icon" />
+<link href="http://discovery.nationalarchives.gov.uk/Content/images/apple-touch-icon.png"
+rel="apple-touch-icon" />
+</head>
+<body class="browse">
+<header role="banner" id="page-header">
+<div id="skip-link-container">
+<a href="#page_wrap">Skip to Main Content</a>
+</div>
+<div class="container">
+<div id="holds-logo-and-search" class="row">
+<div id="logo-holder" class="col starts-at-full ends-at-half clr">
+<a title="Go to The National Archives homepage"
+href="http://www.nationalarchives.gov.uk">
+<img src="http://discovery.nationalarchives.gov.uk/Content/Images/logo-white.png"
+alt="The National Archives" title="The National Archives" />
+</a>
+<form id="mobile-global-search" method="get"
+action="http://www.nationalarchives.gov.uk/search/quick_search.aspx"
+name="mobile-global-search">
+<div id="mobile-search-outer-wrapper">
+<div id="mobile-search-wrapper">
+<input type="text" aria-required="true" required=""
+name="search_text" placeholder="Search our website..."
+id="mobile-search-field" autocomplete="off" /> 
+<input type="submit" id="mobileSearchSubmit" value="" /></div>
+<div id="change-destination">
+<span>
+<input type="radio" data-fieldname="search_text"
+data-placeholder="Search our website..."
+data-target="http://www.nationalarchives.gov.uk/search/quick_search.aspx"
+id="websiteSearch" name="searchDestination"
+class="mobileSearchDestinationOption" checked="checked" />
+<label for="websiteSearch">Search our website</label>
+</span> 
+<span>
+<input type="radio" data-fieldname="_q"
+data-placeholder="Search our records..." data-target="/results/r"
+id="catalogueSearch" name="searchDestination"
+class="mobileSearchDestinationOption" />
+<label for="catalogueSearch">Search our records</label>
+</span></div>
+</div>
+</form>
+</div>
+<div class="col starts-at-full ends-at-half clr">
+<div id="search-field-wrapper" role="search">
+<form id="globalSearch" method="get"
+action="http://www.nationalarchives.gov.uk/search/quick_search.aspx"
+name="globalSearch">
+<span id="scope-selector" class="interactive-element"> </span> 
+<input type="text" aria-required="true" required=""
+name="search_text" id="tnaSearch"
+placeholder="Search our website..." class="search-field"
+autocomplete="off" /> 
+<input type="submit" value="" id="search-button"
+class="search-button" /></form>
+<ul id="search-options">
+<li>
+<a aria-label="Change form destination to search the website"
+role="button" data-fieldname="search_text"
+data-placeholder="Search our website..."
+data-target="http://www.nationalarchives.gov.uk/search/quick_search.aspx"
+class="formDestinationChanger" href="#">Search our website</a>
+</li>
+<li>
+<a aria-label="Change form destination to search the catalogue"
+role="button" data-fieldname="_q"
+data-placeholder="Search our records..." data-target="/results/r"
+class="formDestinationChanger" href="#">Search our records</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col starts-at-full clr pull-down">
+<div id="mega-menu-pull-down" class="interactive-element">
+<button aria-label="Toggle menu">Menu</button>
+</div>
+</div>
+</div>
+</div>
+<div class="mega-menu" role="navigation">
+<section class="row">
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/About us ','WT.ti','Menu - About us ');"
+href="http://www.nationalarchives.gov.uk/about">About us</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/About us ','WT.ti','Menu - About us ');"
+href="http://www.nationalarchives.gov.uk/about/">About us home</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Our role ','WT.ti','Menu - Our role ');"
+href="http://www.nationalarchives.gov.uk/about/our-role.htm">Our
+role</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Visit us ','WT.ti','Menu - Visit us ');"
+href="http://www.nationalarchives.gov.uk/visit/">Visit us</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Opening times ','WT.ti','Menu - Opening times ');"
+href="http://www.nationalarchives.gov.uk/visit/times.htm">Opening
+times</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Jobs ','WT.ti','Menu - Jobs ');"
+href="http://www.nationalarchives.gov.uk/jobs/">Jobs</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Get involved ','WT.ti','Menu - Get involved ');"
+href="http://www.nationalarchives.gov.uk/get-involved/default.htm">Get
+involved</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/News ','WT.ti','Menu - News ');"
+href="http://www.nationalarchives.gov.uk/news/">News</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Press room ','WT.ti','Menu - Press room ');"
+href="http://www.nationalarchives.gov.uk/pressroom/">Press room</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Commercial opportunities ','WT.ti','Menu - Commercial opportunities ');"
+href="http://www.nationalarchives.gov.uk/about/commercial-opportunities.htm">
+Commercial opportunities</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Education ','WT.ti','Menu - Education ');"
+href="http://www.nationalarchives.gov.uk/education/">Education</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Education ','WT.ti','Menu - Education ');"
+href="http://www.nationalarchives.gov.uk/education">Education
+home</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Topics ','WT.ti','Menu - Topics ');"
+href="http://www.nationalarchives.gov.uk/education/sessions-and-resources/?time-period=medieval,early-modern,empire-and-industry,victorians,early-20th-century,interwar,second-world-war,postwar">
+Time periods</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Lessons ','WT.ti','Menu - Lessons ');"
+href="http://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=lesson">
+Lessons</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Workshops ','WT.ti','Menu - Workshops ');"
+href="http://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=workshop">
+Workshops</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Videoconferences ','WT.ti','Menu - Videoconferences ');"
+href="http://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=video-conferences">
+Videoconferences</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Virtual classroom ','WT.ti','Menu - Virtual classroom ');"
+href="http://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=virtual-classroom">
+Virtual classroom</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Professional development ','WT.ti','Menu - Professional development ');"
+href="http://www.nationalarchives.gov.uk/education/teachers/professional-development/">
+Professional development</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/For teachers ','WT.ti','Menu - For teachers ');"
+href="http://www.nationalarchives.gov.uk/education/teachers/">For
+teachers</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/For students ','WT.ti','Menu - For students ');"
+href="http://www.nationalarchives.gov.uk/education/students/">For
+students</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/help-with-your-research ','WT.ti','Menu – Help with your research home ');"
+href="http://www.nationalarchives.gov.uk/help-with-your-research">Help
+with your research</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/help-with-your-research ','WT.ti','Menu – Help with your research home ');"
+href="http://www.nationalarchives.gov.uk/help-with-your-research/">Help
+with your research home</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Search Discovery, our catalogue ','WT.ti','Menu - Search Discovery, our catalogue ');"
+href="http://discovery.nationalarchives.gov.uk/">Search Discovery,
+our catalogue</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Start your research here ','WT.ti','Menu - Start your research here ');"
+href="http://www.nationalarchives.gov.uk/records/start-here.htm">Start
+your research here</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/help-with-your-research/research-guides/ ','WT.ti','Menu - Research guides A-Z ');"
+href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides-keywords/">
+Research guides A-Z</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/online-collections ','WT.ti','Menu - Online collections ');"
+href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online">
+Online collections</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Catalogues and online records ','WT.ti','Menu - Catalogues and online records ');"
+href="http://www.nationalarchives.gov.uk/records/catalogues-and-online-records.htm">
+Full list of catalogues and online records</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/UK Government Web Archive ','WT.ti','Menu - UK Government Web Archive ');"
+href="http://www.nationalarchives.gov.uk/webarchive/">UK Government
+Web Archive</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Certificates of British Citizenship ','WT.ti','Menu - Certificates of British Citizenship ');"
+href="http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/certificates-of-british-citizenship-1949-1986/">
+Certificates of British Citizenship</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Record copying ','WT.ti','Menu - Record copying ');"
+href="http://www.nationalarchives.gov.uk/recordcopying/">Record
+copying</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3 class="hyphenate">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Information Management ','WT.ti','Menu - Information Management ');"
+href="http://www.nationalarchives.gov.uk/information-management/">Information
+management</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Information Management ','WT.ti','Menu - Information Management ');"
+href="http://www.nationalarchives.gov.uk/information-management/">Information
+management home</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Guidance and standards A-Z ','WT.ti','Menu - Guidance and standards A-Z ');"
+href="http://www.nationalarchives.gov.uk/information-management/browse-guidance-standards/">
+Guidance and standards A-Z</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Crown copyright ','WT.ti','Menu - Crown copyright ');"
+href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright/">
+Copyright</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Re-using PSI ','WT.ti','Menu - Re-using PSI ');"
+href="%20/information-management/manage-information/">How to manage
+your information</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Re-using PSI ','WT.ti','Menu - Re-using PSI ');"
+href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/">
+Re-using PSI</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Official publishing ','WT.ti','Menu - Official publishing ');"
+href="http://www.nationalarchives.gov.uk/information-management/producing-official-publications/">
+Producing official publications</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Records selection and transfer ','WT.ti','Menu - Records selection and transfer ');"
+href="http://www.nationalarchives.gov.uk/information-management/legislation/">
+Legislation and regulations</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Training ','WT.ti','Menu - Training ');"
+href="http://www.nationalarchives.gov.uk/information-management/training/">
+Training</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Archives sector ','WT.ti','Menu - Archives sector ');"
+href="http://www.nationalarchives.gov.uk/archives-sector">Archives
+sector</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Archives sector ','WT.ti','Menu - Archives sector ');"
+href="http://www.nationalarchives.gov.uk/archives-sector">Archives
+sector home</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Current initiatives ','WT.ti','Menu - Current initiatives ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/current-initiatives.htm">
+Current initiatives</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Developing your archives ','WT.ti','Menu - Developing your archives ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/developing-your-archives.htm">
+Developing your archives</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Finding funding ','WT.ti','Menu - Finding funding ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/finding-funding.htm">
+Finding funding</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Share your expertise ','WT.ti','Menu - Share your expertise ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/share-your-expertise.htm">
+Share your expertise</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Policies and strategies ','WT.ti','Menu - Policies and strategies ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/policy-strategy.htm">
+Policies and strategies</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Statistics, studies and reports ','WT.ti','Menu - Statistics, studies and reports ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/statistics-studies-reports.htm">
+Statistics, studies and reports</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Historical Manuscripts Commission ','WT.ti','Menu - Historical Manuscripts Commission ');"
+href="http://www.nationalarchives.gov.uk/archives-sector/hmc.htm">Historical
+Manuscripts Commission</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>More...</h3>
+<ul>
+<li class="mobileOnly">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/More? ','WT.ti','Menu - More? ');"
+href="http://www.nationalarchives.gov.uk/about/">More...</a>
+</li>
+<li class="image">
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Bookshop ','WT.ti','Menu - Bookshop ');"
+href="http://www.nationalarchives.gov.uk/bookshop/">Bookshop</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Image library ','WT.ti','Menu - Image library ');"
+href="http://www.nationalarchives.gov.uk/imagelibrary/">Image
+library</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Blog ','WT.ti','Menu - Blog ');"
+href="http://www.nationalarchives.gov.uk/blog/">Blog</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Labs ','WT.ti','Menu - Labs ');"
+href="http://www.nationalarchives.gov.uk/labs/">Labs</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Community ','WT.ti','Menu - Community ');"
+href="https://community.nationalarchives.gov.uk/">Community</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Podcasts and videos ','WT.ti','Menu - Podcasts and videos ');"
+href="http://www.nationalarchives.gov.uk/media/">Podcasts and
+videos</a>
+</li>
+<li>
+<a onclick="dcsMultiTrack('DCS.dcsuri','/menu/Contact us ','WT.ti','Menu - Contact us ');"
+href="http://www.nationalarchives.gov.uk/contact/">Contact us</a>
+</li>
+<li class="imgContent">
+<a href="http://www.nationalarchives.gov.uk/first-world-war/"
+title="First World War 100 - read about our centenary programme">
+<img src="http://www.nationalarchives.gov.uk/images/home/menu-first-world-war-b.jpg"
+alt="Explore First World War 100" />
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</section>
+</div>
+<div id="account-controls-wrapper">
+<div id="account-controls" class="container">
+<ul>
+<li id="signin">
+<a href="/sign-in">Sign in</a>
+</li>
+<li id="register">
+<a href="/register">Register</a>
+</li>
+<li id="miniBasket">
+<span class="noItems">
+<img src="http://discovery.nationalarchives.gov.uk/Content/Images/basket.png"
+id="basketIcon" alt="Basket icon" /> No items</span>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<main id="page_wrap" class="container" role="main">
+<section class="row" id="holds-breadcrumb">
+<div class="col starts-at-half clr">
+<nav id="breadcrumb">
+<ul>
+<li>
+<a href="http://www.nationalarchives.gov.uk">Home</a>
+</li>
+<li>
+<a href="/">Discovery</a>
+</li>
+<li>
+<a href="/browse/h">Browse</a>
+</li>
+<li>A</li>
+</ul>
+</nav>
+</div>
+<div class="col starts-at-half clr">
+<nav id="page-controls">
+<ul>
+<li>
+<a href="/" class="startNewSearch">Start new search</a>
+</li>
+<li>
+<a target="_blank"
+href="http://www.nationalarchives.gov.uk/help/discovery-help.htm">Discovery
+help</a>
+</li>
+</ul>
+</nav>
+</div>
+</section>
+<section class="row">
+<div class="col starts-at-full clr browse-box">
+<div class="breather">
+<h1 class="inline">Browse The National Archives' catalogue</h1>
+<a class="sit-right" href="/browse/r/r/C1">Browse by reference</a> 
+<a class="discoveryPrimaryCallToActionLink sit-right"
+title="Browse" href="/browse/h">
+<span>Browse home</span>
+</a>
+<section class="row">
+<div class="col starts-at-full clr box">
+<div class="breather-all">
+<section id="browse-wrapper" class="row holding-box breather">
+<div class="col starts-at-full ends-at-two-thirds clr">
+<h2 class="inline">Inside you will find</h2>
+<div class="browse-siblings">
+<div class="prev-first-links"></div>
+<div class="next-last-links">
+<a class="next"
+href="/browse/r/h/C1?ck=C1607&amp;sUp=false&amp;sK=C27">Next 30</a>
+
+<a class="last"
+href="/browse/r/h/C1?ck=C1607&amp;sUp=true&amp;sK=~">Last</a></div>
+</div>
+<ul class="siblings-list">
+<li class="parent-expanded">
+<span class="refTitle" title="">
+<!-- -->
+</span> 
+<span class="item-reference">A</span> 
+<span class="covering-dates">1571-1858</span> 
+<span class="item-title">Records of the Alienation Office</span>
+<p class="scopecontent">
+<span class="itemDescription">Surviving records of the Alienation
+Office, which developed from 1576 to prevent the alienation of
+feudal land without licence, recording the Alienation Office's
+revenue- gathering activities.</span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">These include accounts of the office
+in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1607"
+target="_blank">A 1</a>, yearly accounts of the receivers general
+in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1611"
+target="_blank">A 5</a>, and books of accounts of pre- and post
+fines in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1612"
+target="_blank">A 6</a>. Accounts of fees and emoluments for are in
+
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1609"
+target="_blank">A 3</a></span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">Entry books of licences and pardons
+for alienation are in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1610"
+target="_blank">A 4</a>, entry books of writs of entry are in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1615"
+target="_blank">A 9</a>, and writs of covenant are in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1613"
+target="_blank">A 7</a></span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">Master of Chancery's affidavits are
+in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1609"
+target="_blank">A 3</a>. 'Nil Books' are in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1614"
+target="_blank">A 8</a></span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">Office expenses are in 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/details?Uri=C1608"
+target="_blank">A 2</a></span>
+</p>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1">Details</a>
+</div></li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C2">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AB</span> 
+<span title="1939-2015" class="covering-dates">
+<!-- -->1939-2015</span> 
+<span title="Records of the United Kingdom Atomic Energy Authority and its predecessors"
+class="item-title">
+<!-- -->Records of the United Kingdom Atomic Energy Authority and
+its predecessors</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C2">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C13449784">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->ACE</span> 
+<span title="2004-2012" class="covering-dates">
+<!-- -->2004-2012</span> 
+<span title="Records of the Arts Council England"
+class="item-title">
+<!-- -->Records of the Arts Council England</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C13449784">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C3">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->ACT</span> 
+<span title="1870-2004" class="covering-dates">
+<!-- -->1870-2004</span> 
+<span title="Records of the Government Actuary's Department"
+class="item-title">
+<!-- -->Records of the Government Actuary's Department</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C3">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C4">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->ADM</span> 
+<span title="1205-1998" class="covering-dates">
+<!-- -->1205-1998</span> 
+<span title="Records of the Admiralty, Naval Forces, Royal Marines, Coastguard, and related bodies"
+class="item-title">
+<!-- -->Records of the Admiralty, Naval Forces, Royal Marines,
+Coastguard, and related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C4">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C5">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AE</span> 
+<span title="1908-1991" class="covering-dates">
+<!-- -->1908-1991</span> 
+<span title="Records of the Royal Commission on Historical Monuments (England)"
+class="item-title">
+<!-- -->Records of the Royal Commission on Historical Monuments
+(England)</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C5">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C6">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AF</span> 
+<span title="1938-2011" class="covering-dates">
+<!-- -->1938-2011</span> 
+<span title="Records of the Parliamentary Boundary Commissions for England and Wales"
+class="item-title">
+<!-- -->Records of the Parliamentary Boundary Commissions for
+England and Wales</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C6">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C7">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AH</span> 
+<span title="1963-1979" class="covering-dates">
+<!-- -->1963-1979</span> 
+<span title="Records of the Location of Offices Bureau"
+class="item-title">
+<!-- -->Records of the Location of Offices Bureau</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C7">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C423">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AHDB</span> 
+<span title="2008-2011" class="covering-dates">
+<!-- -->2008-2011</span> 
+<span title="Records created or inherited by the Agriculture and Horticulture Development Board"
+class="item-title">
+<!-- -->Records created or inherited by the Agriculture and
+Horticulture Development Board</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C423">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C8">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AIR</span> 
+<span title="1862-1992" class="covering-dates">
+<!-- -->1862-1992</span> 
+<span title="Records created or inherited by the Air Ministry, the Royal Air Force, and related bodies"
+class="item-title">
+<!-- -->Records created or inherited by the Air Ministry, the Royal
+Air Force, and related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C8">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C9">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AJ</span> 
+<span title="1963-1971" class="covering-dates">
+<!-- -->1963-1971</span> 
+<span title="Records of the Consumer Council" class="item-title">
+<!-- -->Records of the Consumer Council</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C9">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C10">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AK</span> 
+<span title="1848-1969" class="covering-dates">
+<!-- -->1848-1969</span> 
+<span title="Records of County Courts" class="item-title">
+<!-- -->Records of County Courts</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C10">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C11">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AM</span> 
+<span title="1832-1948" class="covering-dates">
+<!-- -->1832-1948</span> 
+<span title="Records of the Office of the Parliamentary Counsel"
+class="item-title">
+<!-- -->Records of the Office of the Parliamentary Counsel</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C11">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C12">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AN</span> 
+<span title="1802-2008" class="covering-dates">
+<!-- -->1802-2008</span> 
+<span title="Records created or inherited by the British Transport Commission, the British Railways Board, and related bodies"
+class="item-title">
+<!-- -->Records created or inherited by the British Transport
+Commission, the British Railways Board, and related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C12">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C13">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AO</span> 
+<span title="1536-2002" class="covering-dates">
+<!-- -->1536-2002</span> 
+<span title="Records of the Auditors of the Imprest, Commissioners of Audit, Exchequer and Audit Department, National Audit Office and related bodies"
+class="item-title">
+<!-- -->Records of the Auditors of the Imprest, Commissioners of
+Audit, Exchequer and Audit Department, National Audit Office and
+related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C13">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C14">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AP</span> 
+<span title="1920-1987" class="covering-dates">
+<!-- -->1920-1987</span> 
+<span title="Records of the Irish Sailors and Soldiers Land Trust"
+class="item-title">
+<!-- -->Records of the Irish Sailors and Soldiers Land Trust</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C14">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C15">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AR</span> 
+<span title="1897-2008" class="covering-dates">
+<!-- -->1897-2008</span> 
+<span title="Records of the Wallace Collection" class="item-title">
+<!-- -->Records of the Wallace Collection</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C15">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C14654693">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->ASI</span> 
+<span title="-" class="covering-dates">
+<!-- -->-</span> 
+<span title="Reserved for forthcoming transfer" class="item-title">
+<!-- -->Reserved for forthcoming transfer</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C14654693">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C16">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->ASSI</span> 
+<span title="1554-1971" class="covering-dates">
+<!-- -->1554-1971</span> 
+<span title="Records of Justices of Assize, Gaol Delivery, Oyer and Terminer, and Nisi Prius"
+class="item-title">
+<!-- -->Records of Justices of Assize, Gaol Delivery, Oyer and
+Terminer, and Nisi Prius</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C16">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C17">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AST</span> 
+<span title="1894-1997" class="covering-dates">
+<!-- -->1894-1997</span> 
+<span title="Records of the Unemployment Assistance Boards, the Supplementary Benefits Commission, and of related bodies"
+class="item-title">
+<!-- -->Records of the Unemployment Assistance Boards, the
+Supplementary Benefits Commission, and of related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C17">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C18">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AT</span> 
+<span title="1835-2009" class="covering-dates">
+<!-- -->1835-2009</span> 
+<span title="Records created or inherited by the Department of the Environment, the Department of the Environment, Transport and the Regions (DETR), Local Government and the Regions (DTLR), and the Office of the Deputy Prime Minister."
+class="item-title">
+<!-- -->Records created or inherited by the Department of the
+Environment, the Department of the Environment, Transport and the
+Regions (DETR), Local Government and the Regions (DTLR), and the
+Office of the Deputy Prime Minister.</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C18">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C19">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AVIA</span> 
+<span title="1832-1995" class="covering-dates">
+<!-- -->1832-1995</span> 
+<span title="Records created or inherited by the Ministry of Aviation and successors, the Air Registration Board, and related bodies"
+class="item-title">
+<!-- -->Records created or inherited by the Ministry of Aviation
+and successors, the Air Registration Board, and related
+bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C19">Details</a>
+</div></a>
+</li>
+<li class="leaf-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C20">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AW</span> 
+<span class="covering-dates">
+<!-- -->
+</span> 
+<span title="Records of the British European Airways and British Overseas Airways Corporation"
+class="item-title">
+<!-- -->Records of the British European Airways and British
+Overseas Airways Corporation</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C20">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C21">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AX</span> 
+<span title="1970-1993" class="covering-dates">
+<!-- -->1970-1993</span> 
+<span title="Records of the Local Government Boundary Commission for England"
+class="item-title">
+<!-- -->Records of the Local Government Boundary Commission for
+England</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C21">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C22">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->AY</span> 
+<span title="1893-2012" class="covering-dates">
+<!-- -->1893-2012</span> 
+<span title="Records of Various Research Institutes and Councils"
+class="item-title">
+<!-- -->Records of Various Research Institutes and Councils</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C22">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C23">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->B</span> 
+<span title="1710-2000" class="covering-dates">
+<!-- -->1710-2000</span> 
+<span title="Records of the Office of the Commissioners of Bankrupts, the successor bankruptcy courts, and the Court for the Relief of Insolvent Debtors"
+class="item-title">
+<!-- -->Records of the Office of the Commissioners of Bankrupts,
+the successor bankruptcy courts, and the Court for the Relief of
+Insolvent Debtors</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C23">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C24">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->BA</span> 
+<span title="1908-1985" class="covering-dates">
+<!-- -->1908-1985</span> 
+<span title="Records of the Civil Service Department"
+class="item-title">
+<!-- -->Records of the Civil Service Department</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C24">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C25">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->BC</span> 
+<span title="1965-2008" class="covering-dates">
+<!-- -->1965-2008</span> 
+<span title="Records of the Law Commission" class="item-title">
+<!-- -->Records of the Law Commission</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C25">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C26">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->BD</span> 
+<span title="1854-2012" class="covering-dates">
+<!-- -->1854-2012</span> 
+<span title="Records created or inherited by the Welsh Office and the Wales Office"
+class="item-title">
+<!-- -->Records created or inherited by the Welsh Office and the
+Wales Office</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C26">Details</a>
+</div></a>
+</li>
+<li class="parent-collapsed">
+<a class="collapsed-link" href="/browse/r/h/C27">
+<span title="" class="refTitle">
+<!-- -->
+</span> 
+<span class="item-reference">
+<!-- -->BE</span> 
+<span title="1937-1968" class="covering-dates">
+<!-- -->1937-1968</span> 
+<span title="Records of the Iron and Steel Corporation of Great Britain, the Iron and Steel Board, and related bodies"
+class="item-title">
+<!-- -->Records of the Iron and Steel Corporation of Great Britain,
+the Iron and Steel Board, and related bodies</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C27">Details</a>
+</div></a>
+</li>
+</ul>
+<div class="browse-siblings">
+<div class="prev-first-links"></div>
+<div class="next-last-links">
+<a class="next"
+href="/browse/r/h/C1?ck=C1607&amp;sUp=false&amp;sK=C27">Next 30</a>
+
+<a class="last"
+href="/browse/r/h/C1?ck=C1607&amp;sUp=true&amp;sK=~">Last</a></div>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-third">
+<div id="browse-child-nodes-pagination">
+<div class="prev-first-links"></div>
+<div class="next-last-links"></div>
+</div>
+<ul class="child-list">
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1607">
+<span class="item-reference">A 1</span> 
+<span class="covering-dates">1684-1806</span> 
+<span class="item-title">Alienation Office: Deputy Receivers'
+Account Books</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1607">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1608">
+<span class="item-reference">A 2</span> 
+<span class="covering-dates">1700-1780</span> 
+<span class="item-title">Alienation Office: Account Book for
+Incidental Expenses</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1608">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1609">
+<span class="item-reference">A 3</span> 
+<span class="covering-dates">1587-1834</span> 
+<span class="item-title">Alienation Office: Affidavits to Moderate
+Fines and Miscellanea</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1609">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1610">
+<span class="item-reference">A 4</span> 
+<span class="covering-dates">1558-1685</span> 
+<span class="item-title">Chancery and Alienation Office: Entry
+Books of Licences and Pardons for Alienation</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1610">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1611">
+<span class="item-reference">A 5</span> 
+<span class="covering-dates">1676-1831</span> 
+<span class="item-title">Alienation Office: Miscellanea</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1611">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1612">
+<span class="item-reference">A 6</span> 
+<span class="covering-dates">1759-1794</span> 
+<span class="item-title">Alienation Office: Account Books of Pre-
+and Post-fines</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1612">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1613">
+<span class="item-reference">A 7</span> 
+<span class="covering-dates">1576-1661</span> 
+<span class="item-title">Alienation Office: Entry Books of Writs of
+Covenant</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1613">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1614">
+<span class="item-reference">A 8</span> 
+<span class="covering-dates">1668-1800</span> 
+<span class="item-title">Alienation Office: Nil Books</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1614">Details</a>
+</div></a>
+</li>
+<li class="parent">
+<a class="collapsed-link" href="/browse/r/h/C1615">
+<span class="item-reference">A 9</span> 
+<span class="covering-dates">1595-1858</span> 
+<span class="item-title">Alienation Office: Entry Books of Writs of
+Entry in Recoveries</span>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1615">Details</a>
+</div></a>
+</li>
+</ul>
+<div id="browse-child-nodes-pagination">
+<div class="prev-first-links"></div>
+<div class="next-last-links"></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</section></div>
+</div>
+</section>
+</main>
+<div id="footer-wrapper">
+<div class="container">
+<div class="row">
+<div class="col starts-at-full ends-at-one-quarter clr">
+<address>
+<h4>The National Archives
+<br />Kew, Richmond, Surrey,
+<br />TW9 4DU</h4>
+<p>Tel: +44 (0) 20 8876 3444</p>
+</address>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Find out more</h4>
+<ul>
+<li>
+<a href="http://nationalarchives.gov.uk/contact/">Contact us</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/pressroom/">Press room</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/jobs/default.htm">Jobs and
+careers</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/get-involved/friends.htm">Friends
+of The National Archives</a>
+</li>
+</ul>
+</div>
+<div class="footer-left">
+<h4>Site help</h4>
+<ul>
+<li>
+<a href="http://nationalarchives.gov.uk/help/">Help</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/help/faqs.htm">FAQs</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/help/atoz.htm">Website A-Z
+index</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/help/accessibility.htm">Accessibility</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/help/sitemap.htm">Site
+map</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Websites</h4>
+<ul>
+<li>
+<a href="http://blog.nationalarchives.gov.uk/">Blog</a>
+</li>
+<li>
+<a href="http://media.nationalarchives.gov.uk/">Podcasts and
+videos</a>
+</li>
+<li>
+<a href="http://labs.nationalarchives.gov.uk/">Labs</a>
+</li>
+<li>
+<a href="http://community.nationalarchives.gov.uk/">Community</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/webarchive/">UK Government
+Web Archive</a>
+</li>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="http://www.legislation.gov.uk/">Legislation.gov.uk</a>
+</li>
+</ul>
+</div>
+<div class="footer-left">
+<h4>Legal</h4>
+<ul>
+<li>
+<a href="http://nationalarchives.gov.uk/legal/">Terms of use</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/legal/privacy.htm">Privacy
+policy</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/legal/cookies.htm">Cookies</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/foi/default.htm">Freedom of
+Information</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/about/transparency.htm">Transparency</a>
+</li>
+<li>
+<a href="http://nationalarchives.gov.uk/legal/our-fees.htm">Our
+fees</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Follow us</h4>
+<ul>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="https://twitter.com/@UKNatArchives">Twitter</a>
+</li>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="https://www.youtube.com/user/nationalarchives08">YouTube</a>
+</li>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="http://flickr.com/photos/nationalarchives">Flickr</a>
+</li>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="http://facebook.com/TheNationalArchives">Facebook</a>
+</li>
+<li>
+<a title="External website - link opens in a new window"
+target="_blank"
+href="http://commons.wikimedia.org/wiki/Commons:The_National_Archives_(United_Kingdom)">
+Wikimedia Commons</a>
+</li>
+<li>
+<a href="/rss/">RSS</a>
+</li>
+</ul>
+</div>
+<div class="footer-left">
+<h4>Latest Flickr image</h4>
+<p class="caption" id="flickr-caption">Staggered holidays for
+comfort. Artist Eileen Evans, 1939-1946. 
+<a href="http://www.flickr.com/photos/nationalarchives/with/9183133054//"
+title="External website - opens in a new window"
+target="_blank">INF 3/94</a></p>
+<p id="flickr-image">
+<a href="http://www.flickr.com/photos/nationalarchives/with/9183133054//"
+title="External website - opens in a new window" target="_blank">
+<img alt="Staggered holidays for comfort. Artist Eileen Evans, 1939-1946."
+src="http://discovery.nationalarchives.gov.uk/Content/images/latest-flickr-INF-3-94.jpg" />
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class="row external-branding">
+<div class="footer-base-external-branding-left">
+<a href="http://nationalarchives.gov.uk/doc/open-government-licence/">
+
+<img src="http://discovery.nationalarchives.gov.uk/Content/images/logo-ogl.png"
+alt="Open Government Licence logo" />
+</a>
+<p>All content is available under the 
+<a href="http://nationalarchives.gov.uk/doc/open-government-licence/">
+Open Government Licence v3.0</a> ,
+<br />except where otherwise stated</p>
+</div>
+<div class="footer-base-external-branding-right">
+<a class="footer-base-external-branding-gov-logo-adjust"
+href="http://gov.uk"
+title="External website - opens in a new window" target="_blank">
+<img src="http://discovery.nationalarchives.gov.uk/Content/images/gov-uk.png"
+alt="GOV.UK logo" />
+</a>
+</div>
+</div>
+</div>
+<div id="version">Version 4.0 - August 2015 - offsite</div>
+</div>
+<script>
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2827241-1']);
+    _gaq.push(['_setDomainName', 'nationalarchives.gov.uk']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ?
+'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+    })();
+
+</script> 
+<!-- START OF SmartSource Data Collector TAG -->
+ 
+<!-- Copyright (c) 1996-2009 WebTrends Inc.  All rights reserved. -->
+ 
+<!-- Version: 8.6.2 -->
+ 
+<!-- Tag Builder Version: 3.0  -->
+ 
+<!-- Created: 8/4/2009 10:26:05 AM -->
+ 
+<script src="http://www.nationalarchives.gov.uk/script/webtrends.js">
+</script> 
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+ 
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+ 
+<script>
+        //&lt;![CDATA[
+        var _tag = new WebTrends();
+        _tag.dcsGetId();
+        //]]&gt;&gt;
+    
+</script> 
+<script>
+        //&lt;![CDATA[
+        // Add custom parameters here.
+        //_tag.DCSext.param_name=param_value;
+        _tag.dcsCollect();
+        //]]&gt;&gt;
+    
+</script> 
+<noscript>
+<div>
+<img alt="DCSIMG" id="DCSIMG" width="1" height="1"
+src="http://smartsource.nationalarchives.gov.uk/dcsdhhxq6000004rry7ab39or_9h9r/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.6.2" />
+</div>
+</noscript> 
+<!-- END OF SmartSource Data Collector TAG -->
+ 
+<!--[if lt IE 9]>
+        <script src="http://discovery.nationalarchives.gov.uk/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="http://discovery.nationalarchives.gov.uk/Scripts/jquery-migrate-1.0.0.js"></script>
+    <![endif]-->
+ 
+<!--[if gte IE 9]><!-->
+ 
+<script src="http://discovery.nationalarchives.gov.uk/Scripts/jquery-2.0.3.min.js">
+</script> 
+<!--<![endif]-->
+ 
+<!-- TNA scripts -->
+ 
+<script src="http://discovery.nationalarchives.gov.uk/Scripts/Build/discovery.4.0.0.min.js">
+</script> 
+<script src="http://nationalarchives.gov.uk/scripts/footer-img.js"
+defer="defer"></script></body>
+</html>

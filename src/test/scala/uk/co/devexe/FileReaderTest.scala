@@ -8,7 +8,7 @@ import org.junit.Test
 class FileReaderTest {
 
   @Test
-  def testRead() = {
+  def testRead() {
     val reader = new FileReader("test.txt")
     val result = reader.read()
     println(result.size)

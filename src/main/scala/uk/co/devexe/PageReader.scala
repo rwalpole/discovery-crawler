@@ -1,8 +1,9 @@
 package uk.co.devexe
 
+import java.io.File
 import java.net.{HttpURLConnection, URL}
 
-import org.w3c.tidy.Tidy
+import scala.util.matching.Regex
 
 /**
  * Created by WALPOLRX on 18/09/2015.
@@ -16,13 +17,32 @@ class PageReader {
       val connection = url.openConnection.asInstanceOf[HttpURLConnection]
       connection.setRequestMethod("GET")
       //connection.setDoOutput() //true? false?
-      connection.getInputStream // Jtidy here!
-      val tidy = new Tidy() // obtain a new Tidy instance
-      tidy.setXHTML(true) // set desired config options using tidy setters
-      tidy.parse(connection.getInputStream, System.out); // run tidy, providing an input and output stream
-      connection.disconnect()
+      val filename = urlStr.substring(urlStr.lastIndexOf("/")+1,urlStr.length)
+      val htmlDir = new File("html")
+      if(!htmlDir.exists()) {
+        htmlDir.mkdir()
+      }
+      inputToFile(connection.getInputStream, new File(htmlDir,filename + ".html"))
+      runTidy(filename)
 
     }
+  }
+
+  def inputToFile(is: java.io.InputStream, f: java.io.File) {
+    val in = scala.io.Source.fromInputStream(is)
+    val out = new java.io.PrintWriter(f)
+    try { in.getLines().foreach(out.print(_)) }
+    finally { out.close }
+  }
+
+  def runTidy(filename: String) {
+    import scala.sys.process._
+    val xmlDir = new File("xml")
+    if(!xmlDir.exists()) {
+      xmlDir.mkdir()
+    }
+    val cmd = Seq("tidy","--output-xml","true","--quote-nbsp","false","-output","./xml/" + filename + ".xml", "./html/" + filename + ".html")
+    cmd !
   }
 
 }
