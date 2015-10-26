@@ -10,7 +10,12 @@ import java.util.regex.Pattern
 import org.slf4j.LoggerFactory
 
 /**
- * Created by walpolrx on 16/09/2015.
+ * Provides the crawler logic - i.e. decides whether to visit a page and if so what
+ * to do with the information retrieved. In this case we are just interested in
+ * knowing whether the URL matches a pattern. If so it will likely contain interesting
+ * information so we log the URL for future use.
+ *
+ * Created by robkwalpole@gmail.com on 16/09/2015.
  */
 class DiscoveryCrawler extends WebCrawler {
 
@@ -25,15 +30,14 @@ class DiscoveryCrawler extends WebCrawler {
 
     // Ignore the url if it has an extension that matches our defined set of image extensions.
     if(IMAGE_EXTENSIONS.matcher(href).matches()) {
-      return false;
+      false
     }
-
-    if(!BROWSE_PATTERN.matcher(href).matches()) {
-      return false
+    else if(!BROWSE_PATTERN.matcher(href).matches()) {
+      false
     }
-
-    href.startsWith("http://discovery.nationalarchives.gov.uk/")
-
+    else {
+      href.startsWith("http://discovery.nationalarchives.gov.uk/")
+    }
   }
 
   /**

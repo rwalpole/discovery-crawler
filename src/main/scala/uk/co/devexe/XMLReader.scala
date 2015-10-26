@@ -8,7 +8,9 @@ import org.w3c.dom.NodeList
 import org.xml.sax.InputSource
 
 /**
- * Created by walpolrx on 05/10/2015.
+ * Reads the XML file output by HTML Tidy and uses XPath to extract the interesting information
+ *
+ * Created by robkwalpole@gmail.com on 05/10/2015.
  */
 class XMLReader(filename: String) {
 

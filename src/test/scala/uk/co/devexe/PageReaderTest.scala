@@ -9,7 +9,7 @@ class PageReaderTest {
 
   @Test
   def testRun() = {
-    val reader = new PageReader
+    val reader = new PageReader("test.txt")
     reader.run()
   }
 }

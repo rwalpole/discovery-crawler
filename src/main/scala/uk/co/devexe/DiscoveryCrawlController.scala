@@ -5,14 +5,17 @@ import edu.uci.ics.crawler4j.fetcher.PageFetcher
 import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
 
 /**
- * Created by walpolrx on 16/09/2015.
+ * Initiates a crawl to the specified depth with the specified number of crawlers at the
+ * specified politeness interval
+ *
+ * Created by robkwalpole@gmail on 16/09/2015.
  */
-class DiscoveryCrawlController {
+class DiscoveryCrawlController(crawlStorageDir: String) {
 
   def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {
 
     val config = new CrawlConfig
-    config.setCrawlStorageFolder("C:\\Temp\\discovery-crawler")
+    config.setCrawlStorageFolder(crawlStorageDir)
     config.setMaxDepthOfCrawling(depth);
     config.setPolitenessDelay(politenessMillisOpt.getOrElse(200));
 

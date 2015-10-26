@@ -6,12 +6,15 @@ import java.net.{HttpURLConnection, URL}
 import scala.util.matching.Regex
 
 /**
- * Created by WALPOLRX on 18/09/2015.
+ * Retrieves the list of URLs from the specified file and then makes a GET request to the page which
+ * it then runs through the HTML Tidy command line tool to convert the content to valid XML
+ *
+ * Created by robkwalpole@gmail.com on 18/09/2015.
  */
-class PageReader {
+class PageReader(urlListFileName: String) {
 
   def run() = {
-    val reader = new FileReader("test.txt")
+    val reader = new FileReader(urlListFileName)
     for(urlStr <- reader.read) {
       val url = new URL(urlStr)
       val connection = url.openConnection.asInstanceOf[HttpURLConnection]

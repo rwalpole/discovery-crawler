@@ -11,7 +11,7 @@ class DiscoveryCrawlControllerTest {
 
   @Test
   def testRun() = {
-    val controller = new DiscoveryCrawlController
+    val controller = new DiscoveryCrawlController("C:\\Temp\\discovery-crawler")
     controller.start(1,1, Some(1000))
   }
 
