@@ -49,7 +49,7 @@ class DiscoveryCrawler extends WebCrawler {
     //counter = counter + 1;
     LOG.info("URL: " + url + " Count=" + counter.incrementAndGet())
     if(!url.contains('?') && url.contains("r/h/C")) {
-      CrawlLogger.log(url) // We only want to log files without query params and where the reference starts with 'C'
+      CrawlLogger.log(url, "urls.txt") // We only want to log files without query params and where the reference starts with 'C'
     }
     //process(page.getParseData)
   }

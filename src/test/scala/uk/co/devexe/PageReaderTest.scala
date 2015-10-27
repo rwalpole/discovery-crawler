@@ -8,8 +8,8 @@ import org.junit.Test
 class PageReaderTest {
 
   @Test
-  def testRun() = {
+  def testRun() {
     val reader = new PageReader("test.txt")
-    reader.run()
+    val result = reader.read()
   }
 }

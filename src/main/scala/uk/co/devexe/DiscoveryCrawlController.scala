@@ -10,6 +10,12 @@ import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
  *
  * Created by robkwalpole@gmail on 16/09/2015.
  */
+object DiscoveryCrawlController {
+  def apply(crawlStorageDir: String) = {
+    new DiscoveryCrawlController(crawlStorageDir)
+  }
+}
+
 class DiscoveryCrawlController(crawlStorageDir: String) {
 
   def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {

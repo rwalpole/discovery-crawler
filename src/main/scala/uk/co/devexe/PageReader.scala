@@ -3,6 +3,7 @@ package uk.co.devexe
 import java.io.File
 import java.net.{HttpURLConnection, URL}
 
+import scala.collection.mutable.ListBuffer
 import scala.util.matching.Regex
 
 /**
@@ -11,24 +12,31 @@ import scala.util.matching.Regex
  *
  * Created by robkwalpole@gmail.com on 18/09/2015.
  */
+object PageReader {
+  def apply(urlListFileName: String) = new PageReader(urlListFileName)
+}
+
 class PageReader(urlListFileName: String) {
 
-  def run() = {
+  /** returns a list of the files created */
+  def read(): List[String] = {
     val reader = new FileReader(urlListFileName)
+    var pages = new ListBuffer[String]
     for(urlStr <- reader.read) {
       val url = new URL(urlStr)
       val connection = url.openConnection.asInstanceOf[HttpURLConnection]
       connection.setRequestMethod("GET")
       //connection.setDoOutput() //true? false?
-      val filename = urlStr.substring(urlStr.lastIndexOf("/")+1,urlStr.length)
+      val page = urlStr.substring(urlStr.lastIndexOf("/")+1,urlStr.length)
+      pages += page
       val htmlDir = new File("html")
       if(!htmlDir.exists()) {
         htmlDir.mkdir()
       }
-      inputToFile(connection.getInputStream, new File(htmlDir,filename + ".html"))
-      runTidy(filename)
-
+      inputToFile(connection.getInputStream, new File(htmlDir,page + ".html"))
+      runTidy(page)
     }
+    pages.toList
   }
 
   def inputToFile(is: java.io.InputStream, f: java.io.File) {

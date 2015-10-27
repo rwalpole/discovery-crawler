@@ -1,16 +1,16 @@
 package uk.co.devexe
 
-import java.io.{FileWriter, File, PrintWriter}
+import java.io.FileWriter
 
 /**
- * Created by walpolrx on 17/09/2015.
+ * Created by robkwalpole@gmail.com on 17/09/2015.
  */
 object CrawlLogger {
 
-  def log(url: String) = {
-    val fw = new FileWriter("test.txt", true)
+  def log(text: String, fileName: String) = {
+    val fw = new FileWriter(fileName, true)
     try {
-      fw.write(url + "\n")
+      fw.write(text + "\n")
     }
     finally fw.close()
   }
