@@ -1,5 +1,7 @@
 package uk.co.devexe
 
+import uk.co.devexe.discovery.CrawlController
+
 /**
  * Main entry point for the  Discover Crawler application
  *
@@ -8,7 +10,7 @@ package uk.co.devexe
 class Controller {
 
   def run() = {
-    val crawlController = DiscoveryCrawlController("C:\\Temp\\discovery-crawler")
+    val crawlController = CrawlController("C:\\Temp\\discovery-crawler")
     val pageReader = PageReader("urls.txt") // this needs to be configurable
     crawlController.start(1, 1, Some(1000)) // blocks until crawl complete
     pageReader.read map { page =>

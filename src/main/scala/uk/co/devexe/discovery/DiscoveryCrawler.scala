@@ -1,13 +1,13 @@
-package uk.co.devexe
+package uk.co.devexe.discovery
 
 import java.util.concurrent.atomic.AtomicInteger
+import java.util.regex.Pattern
 
 import edu.uci.ics.crawler4j.crawler.{Page, WebCrawler}
 import edu.uci.ics.crawler4j.parser.{HtmlParseData, ParseData}
 import edu.uci.ics.crawler4j.url.WebURL
-import java.util.regex.Pattern
-
 import org.slf4j.LoggerFactory
+import uk.co.devexe.CrawlLogger
 
 /**
  * Provides the crawler logic - i.e. decides whether to visit a page and if so what
@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory
  */
 class DiscoveryCrawler extends WebCrawler {
 
-  val LOG = LoggerFactory.getLogger(classOf[DiscoveryCrawlController]);
+  val LOG = LoggerFactory.getLogger(classOf[CrawlController]);
   val IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$")
   val BROWSE_PATTERN = Pattern.compile("http://.*\\.*/browse/r/h/.*")
 

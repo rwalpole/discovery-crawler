@@ -3,6 +3,7 @@ package uk.co.devexe
 import edu.uci.ics.crawler4j.crawler.Page
 import edu.uci.ics.crawler4j.url.WebURL
 import org.junit._
+import uk.co.devexe.discovery.DiscoveryCrawler
 
 class DiscoveryCrawlerTest {
 

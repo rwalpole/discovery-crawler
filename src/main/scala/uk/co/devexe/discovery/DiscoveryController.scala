@@ -1,8 +1,9 @@
-package uk.co.devexe
+package uk.co.devexe.discovery
 
 import edu.uci.ics.crawler4j.crawler.{CrawlConfig, CrawlController}
 import edu.uci.ics.crawler4j.fetcher.PageFetcher
 import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
+import uk.co.devexe.discovery.DiscoveryCrawler
 
 /**
  * Initiates a crawl to the specified depth with the specified number of crawlers at the
@@ -10,13 +11,13 @@ import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
  *
  * Created by robkwalpole@gmail on 16/09/2015.
  */
-object DiscoveryCrawlController {
+object CrawlController {
   def apply(crawlStorageDir: String) = {
-    new DiscoveryCrawlController(crawlStorageDir)
+    new CrawlController(crawlStorageDir)
   }
 }
 
-class DiscoveryCrawlController(crawlStorageDir: String) {
+class CrawlController(crawlStorageDir: String) {
 
   def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {
 

@@ -11,10 +11,15 @@ object TextCleaner {
     dropPhrases(text).replaceAll("[\n\r]"," ").trim
   }
 
-  def dropPhrases(text: String): String = {
+  private def dropPhrases(text: String): String = {
     text.replace("Records created or inherited by the","")
       .replace("Records of the","")
       .replace("Records of","")
+      .replace("and its predecessors","")
+      .replace("and successor","")
+      .replace("and related bodies","")
+      .replace("and of related bodies","")
+
   }
 
 }
