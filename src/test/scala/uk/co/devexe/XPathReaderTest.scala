@@ -9,7 +9,7 @@ class XPathReaderTest {
 
   @Test
   def testRun() {
-    val reader = new XPathReader("tna.xml")
+    val reader = new XPathReader("tna.xml","//*[@class='item-title']")
     val writer = new XPathResultWriter(reader, "output.txt")
     writer.write()
   }

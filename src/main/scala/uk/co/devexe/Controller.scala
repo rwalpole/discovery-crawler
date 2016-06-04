@@ -9,12 +9,12 @@ import uk.co.devexe.discovery.CrawlManager
  */
 class Controller {
 
-  def run() = {
-    val crawlController = CrawlManager("/Users/rob/tmp/discovery-crawler")
+  def run(seedUri: String, xpath: String) = {
+    val crawlManager = CrawlManager("/Users/rob/tmp/discovery-crawler", seedUri)
     val pageReader = PageReader("urls.txt") // this needs to be configurable
-    crawlController.start(1, 1, Some(1000)) // blocks until crawl complete
+    crawlManager.start(1, 1, Some(1000)) // blocks until crawl complete
     pageReader.read map { page =>
-      val xPathReader = XPathReader("xml/" + page + ".xml")
+      val xPathReader = XPathReader("xml/" + page + ".xml", xpath)
       val writer = XPathResultWriter(xPathReader, "out/" + page + ".txt")
       writer.write()
     }

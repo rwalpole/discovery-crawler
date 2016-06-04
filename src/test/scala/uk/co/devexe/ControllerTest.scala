@@ -10,7 +10,9 @@ class ControllerTest {
   @Test
   def testRun() = {
     val controller = new Controller
-    val result = controller.run
+    val seedUri = "http://discovery.nationalarchives.gov.uk/browse"
+    val xpath = "//*[@class='item-title']"
+    val result = controller.run(seedUri,xpath)
   }
 
 }

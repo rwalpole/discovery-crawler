@@ -12,15 +12,15 @@ import org.xml.sax.InputSource
  * Created by robkwalpole@gmail.com on 05/10/2015.
  */
 object XPathReader {
-  def apply(page: String) = new XPathReader(page: String)
+  def apply(page: String, xpath: String) = new XPathReader(page: String, xpath: String)
 }
 
-class XPathReader(page: String) {
+class XPathReader(page: String, xpath: String) {
 
   def read(): Option[NodeList] = {
     val xPathFactory = XPathFactory.newInstance()
     val xPath = xPathFactory.newXPath()
-    val expr = xPath.compile("//*[@class='item-title']")
+    val expr = xPath.compile(xpath)
     val reader = new InputStreamReader(new FileInputStream(page))
     expr.evaluate(new InputSource(reader), XPathConstants.NODESET) match {
       case nodes: NodeList => Some(nodes)

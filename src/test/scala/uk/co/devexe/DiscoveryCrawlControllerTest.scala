@@ -10,7 +10,7 @@ class DiscoveryCrawlManagerTest {
 
   @Test
   def testRun() = {
-    val manager = new CrawlManager("/Users/rob/tmp/discovery-crawler")
+    val manager = new CrawlManager("/Users/rob/tmp/discovery-crawler", "http://discovery.nationalarchives.gov.uk/browse")
     manager.start(1,1, Some(1000))
   }
 

@@ -8,12 +8,12 @@ import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
  * Created by robkwalpole@gmail on 16/09/2015.
  */
 object CrawlManager {
-  def apply(crawlStorageDir: String) = {
-    new CrawlManager(crawlStorageDir)
+  def apply(crawlStorageDir: String, seedUri: String) = {
+    new CrawlManager(crawlStorageDir, seedUri)
   }
 }
 
-class CrawlManager(crawlStorageDir: String) {
+class CrawlManager(crawlStorageDir: String, seedUri: String) {
 
   /**
     * Initiates a crawl to the specified depth with the specified number of crawlers at the
@@ -37,7 +37,7 @@ class CrawlManager(crawlStorageDir: String) {
     val robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher)
 
     val controller = new CrawlController(config, pageFetcher, robotstxtServer)
-    controller.addSeed("http://discovery.nationalarchives.gov.uk/browse")
+    controller.addSeed(seedUri)
 
     /*
      * Start the crawl. This is a blocking operation, meaning that your code
