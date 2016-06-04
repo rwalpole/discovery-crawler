@@ -16,7 +16,9 @@ object TextCleaner {
       .replace("Records of the","")
       .replace("Records of","")
       .replace("and its predecessors","")
+      .replace("and predecessors","")
       .replace("and successor","")
+      .replace(", and of successor","")
       .replace("and related bodies","")
       .replace("and of related bodies","")
 
