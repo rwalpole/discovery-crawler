@@ -14,17 +14,15 @@ object XPathResultWriter {
 class XPathResultWriter(reader: XPathReader, outFileName: String) {
 
   def write() = {
-    reader.read match {
-      case Some(nodes) => {
-        var a = 0;
-        for (a <- 0 to nodes.getLength - 1) {
+    reader.read() match {
+      case Some(nodes) =>
+        for (a <- 0 until nodes.getLength) {
           val text = nodes.item(a).getTextContent
           val outFile = new File(outFileName)
           outFile.getParentFile.mkdirs()
           outFile.createNewFile()
           CrawlLogger.log(TextCleaner.clean(text) + ";", outFile.getAbsolutePath)
         }
-      }
       case None => println("No XPath matches..")
     }
   }

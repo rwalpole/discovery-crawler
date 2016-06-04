@@ -10,7 +10,7 @@ class DiscoveryCrawlManagerTest {
 
   @Test
   def testRun() = {
-    val manager = new CrawlManager("C:\\Temp\\discovery-crawler")
+    val manager = new CrawlManager("/Users/rob/tmp/discovery-crawler")
     manager.start(1,1, Some(1000))
   }
 
