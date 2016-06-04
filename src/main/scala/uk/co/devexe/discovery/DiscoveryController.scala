@@ -3,22 +3,26 @@ package uk.co.devexe.discovery
 import edu.uci.ics.crawler4j.crawler.{CrawlConfig, CrawlController}
 import edu.uci.ics.crawler4j.fetcher.PageFetcher
 import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
-import uk.co.devexe.discovery.DiscoveryCrawler
 
 /**
- * Initiates a crawl to the specified depth with the specified number of crawlers at the
- * specified politeness interval
- *
  * Created by robkwalpole@gmail on 16/09/2015.
  */
-object CrawlController {
+object CrawlManager {
   def apply(crawlStorageDir: String) = {
-    new CrawlController(crawlStorageDir)
+    new CrawlManager(crawlStorageDir)
   }
 }
 
-class CrawlController(crawlStorageDir: String) {
+class CrawlManager(crawlStorageDir: String) {
 
+  /**
+    * Initiates a crawl to the specified depth with the specified number of crawlers at the
+    * specified politeness interval
+    *
+    * @param depth
+    * @param crawlers
+    * @param politenessMillisOpt
+    */
   def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {
 
     val config = new CrawlConfig
@@ -32,7 +36,7 @@ class CrawlController(crawlStorageDir: String) {
     robotstxtConfig.setEnabled(false)
     val robotstxtServer = new RobotstxtServer(robotstxtConfig, pageFetcher)
 
-    val controller = new CrawlController(config,pageFetcher, robotstxtServer)
+    val controller = new CrawlController(config, pageFetcher, robotstxtServer)
     controller.addSeed("http://discovery.nationalarchives.gov.uk/browse")
 
     /*

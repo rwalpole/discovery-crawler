@@ -1,19 +1,17 @@
 package uk.co.devexe
 
-import edu.uci.ics.crawler4j.crawler.Page
-import edu.uci.ics.crawler4j.url.WebURL
 import org.junit.Test
-import uk.co.devexe.discovery.CrawlController$
+import uk.co.devexe.discovery.CrawlManager
 
 /**
- * Created by walpolrx on 16/09/2015.
+ * Created by robkwalpole@gmail.com on 16/09/2015.
  */
-class DiscoveryCrawlControllerTest {
+class DiscoveryCrawlManagerTest {
 
   @Test
   def testRun() = {
-    val controller = new CrawlController("C:\\Temp\\discovery-crawler")
-    controller.start(1,1, Some(1000))
+    val manager = new CrawlManager("C:\\Temp\\discovery-crawler")
+    manager.start(1,1, Some(1000))
   }
 
 

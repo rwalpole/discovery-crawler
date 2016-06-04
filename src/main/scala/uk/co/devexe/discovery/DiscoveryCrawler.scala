@@ -19,7 +19,7 @@ import uk.co.devexe.CrawlLogger
  */
 class DiscoveryCrawler extends WebCrawler {
 
-  val LOG = LoggerFactory.getLogger(classOf[CrawlController]);
+  val LOG = LoggerFactory.getLogger(classOf[CrawlManager])
   val IMAGE_EXTENSIONS = Pattern.compile(".*\\.(bmp|gif|jpg|png)$")
   val BROWSE_PATTERN = Pattern.compile("http://.*\\.*/browse/r/h/.*")
 
@@ -55,15 +55,14 @@ class DiscoveryCrawler extends WebCrawler {
   }
 
   def process(parseData: ParseData) = parseData match {
-    case htmlParseData: HtmlParseData => {
-      val text = htmlParseData.getText
-      val html = htmlParseData.getHtml
-      val links = htmlParseData.getOutgoingUrls
+    case htmlParseData: HtmlParseData =>
+      //val text = htmlParseData.getText
+      //val html = htmlParseData.getHtml
+      //val links = htmlParseData.getOutgoingUrls
 
       //LOG.info("Text length: " + text.length)
       //LOG.info("Html length: " + html.length)
       //LOG.info("Number of outgoing links: " + links.size)
-    }
     case _ => System.out.println(parseData.getClass)
   }
 }

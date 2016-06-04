@@ -1,6 +1,6 @@
 package uk.co.devexe.ner
 
-import uk.co.devexe.Endpoint
+//import uk.co.devexe.Endpoint
 
 /**
  * Created by walpolrx on 06/11/2015.

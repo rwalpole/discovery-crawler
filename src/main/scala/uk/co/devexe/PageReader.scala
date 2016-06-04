@@ -47,6 +47,7 @@ class PageReader(urlListFileName: String) {
   }
 
   def runTidy(filename: String) {
+    import scala.language.postfixOps
     import scala.sys.process._
     val xmlDir = new File("xml")
     if(!xmlDir.exists()) {
