@@ -3,7 +3,7 @@ package uk.co.devexe
 import scala.collection.mutable.ListBuffer
 
 /**
- * Created by WALPOLRX on 18/09/2015.
+ * Created by robkwalpole@gmail.com on 18/09/2015.
  */
 class FileReader(file: String) {
 

@@ -9,7 +9,7 @@ import uk.co.devexe.discovery.CrawlManager
  */
 class Controller {
 
-  def run(seedUri: String, xpath: String) = {
+  def run(seedUri: String, xpath: String): List[Unit] = {
     val crawlManager = CrawlManager("/Users/rob/tmp/discovery-crawler", seedUri)
     val pageReader = PageReader("urls.txt") // this needs to be configurable
     crawlManager.start(1, 1, Some(1000)) // blocks until crawl complete

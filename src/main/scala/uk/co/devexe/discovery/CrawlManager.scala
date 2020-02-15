@@ -8,7 +8,7 @@ import edu.uci.ics.crawler4j.robotstxt.{RobotstxtConfig, RobotstxtServer}
  * Created by robkwalpole@gmail on 16/09/2015.
  */
 object CrawlManager {
-  def apply(crawlStorageDir: String, seedUri: String) = {
+  def apply(crawlStorageDir: String, seedUri: String): CrawlManager = {
     new CrawlManager(crawlStorageDir, seedUri)
   }
 }
@@ -18,17 +18,13 @@ class CrawlManager(crawlStorageDir: String, seedUri: String) {
   /**
     * Initiates a crawl to the specified depth with the specified number of crawlers at the
     * specified politeness interval
-    *
-    * @param depth
-    * @param crawlers
-    * @param politenessMillisOpt
     */
-  def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]) = {
+  def start(depth: Int, crawlers: Int, politenessMillisOpt: Option[Int]): Unit = {
 
     val config = new CrawlConfig
     config.setCrawlStorageFolder(crawlStorageDir)
-    config.setMaxDepthOfCrawling(depth);
-    config.setPolitenessDelay(politenessMillisOpt.getOrElse(200));
+    config.setMaxDepthOfCrawling(depth)
+    config.setPolitenessDelay(politenessMillisOpt.getOrElse(200))
 
     val pageFetcher = new PageFetcher(config)
 

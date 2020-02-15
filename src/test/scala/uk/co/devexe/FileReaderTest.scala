@@ -3,7 +3,7 @@ package uk.co.devexe
 import org.junit.Test
 
 /**
- * Created by WALPOLRX on 18/09/2015.
+ * Created by robkwalpole@gmail.com on 18/09/2015.
  */
 class FileReaderTest {
 

@@ -4,7 +4,6 @@ import java.io.File
 import java.net.{HttpURLConnection, URL}
 
 import scala.collection.mutable.ListBuffer
-import scala.util.matching.Regex
 
 /**
  * Retrieves the list of URLs from the specified file and then makes a GET request to the page which
@@ -22,11 +21,10 @@ class PageReader(urlListFileName: String) {
   def read(): List[String] = {
     val reader = new FileReader(urlListFileName)
     var pages = new ListBuffer[String]
-    for(urlStr <- reader.read) {
+    for(urlStr <- reader.read()) {
       val url = new URL(urlStr)
       val connection = url.openConnection.asInstanceOf[HttpURLConnection]
       connection.setRequestMethod("GET")
-      //connection.setDoOutput() //true? false?
       val page = urlStr.substring(urlStr.lastIndexOf("/")+1,urlStr.length)
       pages += page
       val htmlDir = new File("html")
@@ -42,8 +40,8 @@ class PageReader(urlListFileName: String) {
   def inputToFile(is: java.io.InputStream, f: java.io.File) {
     val in = scala.io.Source.fromInputStream(is)
     val out = new java.io.PrintWriter(f)
-    try { in.getLines().foreach(out.print(_)) }
-    finally { out.close }
+    try { in.getLines().foreach(out.print) }
+    finally { out.close() }
   }
 
   def runTidy(filename: String) {

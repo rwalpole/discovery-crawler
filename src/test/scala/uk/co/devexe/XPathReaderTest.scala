@@ -3,7 +3,7 @@ package uk.co.devexe
 import org.junit.Test
 
 /**
- * Created by walpolrx on 05/10/2015.
+ * Created by robkwalpole@gmail.com on 05/10/2015.
  */
 class XPathReaderTest {
 

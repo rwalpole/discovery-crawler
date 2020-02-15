@@ -3,17 +3,17 @@ package uk.co.devexe
 import java.io.File
 
 /**
- * Created by walpolrx on 27/10/2015.
+ * Created by rob.walpole@gmail.com on 27/10/2015.
  */
 object XPathResultWriter {
-  def apply(reader: XPathReader, outFileName: String) = {
+  def apply(reader: XPathReader, outFileName: String): XPathResultWriter = {
     new XPathResultWriter(reader, outFileName)
   }
 }
 
 class XPathResultWriter(reader: XPathReader, outFileName: String) {
 
-  def write() = {
+  def write(): Unit = {
     reader.read() match {
       case Some(nodes) =>
         for (a <- 0 until nodes.getLength) {

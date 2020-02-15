@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en-gb" class="no-js">
+<head>
+<meta name="generator"
+content="HTML Tidy for HTML5 for Mac OS X version 5.2.0" />
+<meta charset="utf-8" />
+<title>Browse records of other archives | The National
+Archives</title>
+<meta http-equiv="Content-Type"
+content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="initial-scale=1.0" />
+<meta name="keywords"
+content="government information, archive, history, information management, national archives, public records, manuscripts, documents" />
+<meta name="description"
+content="The official archive of the UK government. Our vision is to lead and transform information management, guarantee the survival of today's information for tomorrow and bring history to life for everyone." />
+<meta name="DC.identifier" scheme="DCTERMS.URI"
+content="https://www.nationalarchives.gov.uk/default.htm" />
+<meta name="DC.title" content="The Discovery Service" />
+<meta name="DC.rights"
+content="https://www.nationalarchives.gov.uk/legal/copyright.htm" />
+<meta name="DC.publisher" content="The National Archives" />
+<meta name="DC.creator" content="The National Archives" />
+<meta name="DC.language" content="en-GB" />
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" />
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" />
+<meta name="DCTERMS.created" scheme="DCTERMS.W3CDTF"
+content="2008-12-18" />
+<meta name="DCTERMS.modified" scheme="DCTERMS.W3CDTF"
+content="2009-08-12" />
+<meta name="DC.subject"
+content="Public Records, National Archives, History, Government, Documents" />
+<meta name="DCTERMS.temporal" content="1900-2000" />
+<meta name="DCTERMS.spatial"
+content="England,Wales,UnitedKingdom" />
+<meta name="DC.description"
+content="The National Archives is the UK government's official archive. Our main duties are to preserve Government records and to set standards in information management and re-use." />
+<meta name="eGMS.subject.category" scheme="GCL"
+content="Libraries and archives" />
+<meta name="DCSext.signedin" content="Not signed-in" />
+<meta name="DCSext.subscription" content="not subscribed" />
+<meta name="DCSext.readertype" content="OffSite" />
+<meta name="WT.cg_n" content="Browse hierarchy" />
+<meta name="DCSext.docref" content="F" />
+<link href="https://discovery.nationalarchives.gov.uk:443/Content/compiled-css/main.min.03.10.2019.css"
+type="text/css" rel="stylesheet" />
+<!--[if IE 7]>        <link rel="stylesheet" href="https://discovery.nationalarchives.gov.uk:443/Content/internet-explorer7.css">    <![endif]-->
+<!--[if IE 8]>        <link rel="stylesheet" href="https://discovery.nationalarchives.gov.uk:443/Content/internet-explorer8.css">    <![endif]-->
+<!--[if IE 9]>        <link rel="stylesheet" href="https://discovery.nationalarchives.gov.uk:443/Content/internet-explorer9.css">    <![endif]-->
+<script src="https://discovery.nationalarchives.gov.uk:443/Scripts/modernizr.min.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>        <script src="https://discovery.nationalarchives.gov.uk:443/Scripts/respond.min.js"></script>    <![endif]-->
+<!-- Google Tag Manager -->
+<script src="https://discovery.nationalarchives.gov.uk:443/Scripts/GoogleTagManager/discoveryServerSideGTM.min.js"></script>
+<script>
+        (function (w, d, s, l, i) {            w[l] = w[l] || [];
+w[l].push({                'gtm.start':                    new
+Date().getTime(), event: 'gtm.js'            }); var f =
+d.getElementsByTagName(s)[0],                j =
+d.createElement(s), dl = l != 'dataLayer' ? '&amp;l=' + l : '';
+j.async = true; j.src =                   
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);        })(window, document,
+'script', 'dataLayer', 'GTM-T8DSWV');    
+</script>
+<!-- End Google Tag Manager -->
+<link href='https://fonts.googleapis.com/css?family=Bitter'
+rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans'
+rel='stylesheet' type='text/css' />
+<link href="https://discovery.nationalarchives.gov.uk:443/Content/images/favicon.png"
+type="image/x-icon" rel="Shortcut Icon" />
+<link href="https://discovery.nationalarchives.gov.uk:443/Content/images/favicon.png"
+type="image/x-icon" rel="icon" />
+<link href="https://discovery.nationalarchives.gov.uk:443/Content/images/apple-touch-icon.png"
+rel="apple-touch-icon" />
+</head>
+<body class="browse">
+<!-- Google Tag Manager (noscript) --> 
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8DSWV"
+height="0" width="0"
+style="display:none;visibility:hidden"></iframe>
+</noscript> 
+<!-- End Google Tag Manager (noscript) -->
+<header role="banner" id="page-header">
+<div id="skip-link-container">
+<a href="#page_wrap">Skip to Main Content</a>
+</div>
+<div class="container">
+<div id="holds-logo-and-search" class="row">
+<div id="logo-holder" class="col starts-at-full ends-at-half clr">
+<button aria-label="Toggle menu" id="mega-menu-mobile"></button> 
+<a title="Go to The National Archives homepage"
+href="https://www.nationalarchives.gov.uk">
+<img src="https://discovery.nationalarchives.gov.uk:443/Content/Images/logo-white.png"
+srcset="https://discovery.nationalarchives.gov.uk:443/Content/Images/tna-horizontal-white-logo.svg"
+alt="The National Archives" />
+</a>
+<form id="mobile-global-search" method="get" action="/results/r"
+name="mobile-global-search">
+<div id="mobile-search-outer-wrapper">
+<div id="mobile-search-wrapper">
+<input type="text" aria-required="true" required="" name="_q"
+placeholder="Search our records..." id="mobile-search-field"
+autocomplete="off" /> 
+<input type="submit" id="mobileSearchSubmit" value="" /></div>
+<div id="change-destination">
+<span>
+<input type="radio" data-fieldname="_q"
+data-placeholder="Search our records..." data-target="/results/r"
+id="catalogueSearch" name="searchDestination"
+class="mobileSearchDestinationOption" checked="checked" />
+<label for="catalogueSearch">Search our records</label>
+</span> 
+<span>
+<input type="radio" data-fieldname="_q"
+data-placeholder="Search our website..."
+data-target="https://nationalarchives.gov.uk/search/results"
+id="websiteSearch" name="searchDestination"
+class="mobileSearchDestinationOption" />
+<label for="websiteSearch">Search our website</label>
+</span></div>
+</div>
+</form></div>
+<div class="col starts-at-full ends-at-half clr">
+<div id="search-field-wrapper" role="search">
+<form id="globalSearch" method="get" action="/results/r"
+name="globalSearch">
+<span id="scope-selector" class="interactive-element"> </span> 
+<input type="text" aria-required="true" required="" name="_q"
+id="tnaSearch" placeholder="Search our records..."
+class="search-field" autocomplete="off" /> 
+<input type="submit" value="" id="search-button"
+class="search-button" /></form>
+<ul id="search-options">
+<li>
+<a aria-label="Change form destination to search the catalogue"
+role="button" data-fieldname="_q"
+data-placeholder="Search our records..." data-target="/results/r"
+class="formDestinationChanger" href="#">Search our records</a>
+</li>
+<li>
+<a aria-label="Change form destination to search the website"
+role="button" data-fieldname="_q"
+data-placeholder="Search our website..."
+data-target="https://nationalarchives.gov.uk/search/results"
+class="formDestinationChanger" href="#">Search our website</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col starts-at-full clr pull-down">
+<div id="mega-menu-pull-down" class="interactive-element">
+<button aria-label="Toggle menu">Menu</button>
+</div>
+</div>
+</div>
+</div>
+<!-- NORMAL mega menu -->
+<div class="mega-menu" role="navigation">
+<section class="row">
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about">About us</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/">About us home</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/our-role/">Our
+role</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/visit-us/">Visit
+us</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/visit-us/opening-times/">
+Opening times</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/visit-us/whats-on/">
+What’s on</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/visit-us/venue-hire/">
+Venue hire</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/jobs/">Jobs</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/get-involved/">Get
+involved</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/news/">News</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/commercial-opportunities/">
+Commercial opportunities</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/">Education</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education">Education
+home</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/sessions-and-resources/?time-period=medieval,early-modern,empire-and-industry,victorians,early-20th-century,interwar,second-world-war,postwar">
+Time periods</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=lesson">
+Lessons</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=workshop">
+Workshops</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=video-conferences">
+Videoconferences</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/sessions-and-resources/?resource-type=virtual-classroom">
+Virtual classroom</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/teachers/professional-development/">
+Professional development</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/teachers/">For
+teachers</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/education/students/">For
+students</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research">Help
+with your research</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/">
+Help with your research home</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://discovery.nationalarchives.gov.uk/">Search Discovery,
+our catalogue</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/start-here/">
+Start your research here</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/research-guides-keywords/">
+Research guides A-Z</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online">
+Online collections</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/webarchive/">UK
+Government Web Archive</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/contact-us/british-citizenship-services/">
+British citizenship services</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/record-copying/">
+Record copying</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3 class="hyphenate">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/">Information
+management</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/">Information
+management home</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/browse-guidance-standards/">
+Guidance and standards A-Z</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">
+Copyright</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/manage-information/">
+How to manage your information</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/">
+Re-using PSI</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/producing-official-publications/">
+Producing official publications</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/legislation/">
+Legislation and regulations</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/information-management/training/">
+Training</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector">Archives
+sector</a>
+</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector">Archives
+sector home</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/our-archives-sector-role/historical-manuscripts-commission/">
+Historical Manuscripts Commission</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/finding-funding/">
+Finding funding</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/projects-and-programmes/">
+Projects and programmes</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/case-studies-and-research-reports/">
+Case studies and research reports</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/advice-and-guidance/">
+Operating your archive</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/archives-sector/our-archives-sector-role/">
+Our role in the archives sector</a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="col mega-menu-group clr">
+<div>
+<h3>More...</h3>
+<ul>
+<li class="mobileOnly">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/">More...</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://bookshop.nationalarchives.gov.uk/">Bookshop</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://images.nationalarchives.gov.uk/">Image library</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://blog.nationalarchives.gov.uk/">Blog</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://media.nationalarchives.gov.uk/">Podcasts and
+videos</a>
+</li>
+<li>
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/contact-us/">Contact
+us</a>
+</li>
+<li class="imgContent">
+<a data-gtm="mega-menu"
+href="https://www.nationalarchives.gov.uk/about/visit-us/whats-on/keepers-gallery/"
+title="1657: Rebel Christmas">
+<img src="https://www.nationalarchives.gov.uk/images/home/menu-rebel-christmas.jpg"
+alt="1657: Rebel Christmas" />
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</section>
+</div>
+<!-- end mega-menu -->
+<div id="account-controls-wrapper">
+<div id="account-controls" class="container">
+<ul>
+<li id="signin">
+<a href="/sign-in">Sign in</a>
+</li>
+<li id="register">
+<a href="/register">Register</a>
+</li>
+<li id="miniBasket">
+<span class="noItems">
+<img src="https://discovery.nationalarchives.gov.uk:443/Content/Images/basket.png"
+id="basketIcon" alt="Basket icon" /> No items</span>
+</li>
+</ul>
+</div>
+</div>
+</header>
+<div id="page_wrap" class="container" role="main">
+<section class="row" id="holds-breadcrumb">
+<div class="col starts-at-half clr">
+<nav id="breadcrumb">
+<ul>
+<li>
+<a href="https://www.nationalarchives.gov.uk">Home</a>
+</li>
+<li>
+<a href="/">Discovery</a>
+</li>
+<li>
+<a href="/browse/h">Browse</a>
+</li>
+<li>F</li>
+</ul>
+</nav>
+</div>
+<div class="col starts-at-half clr">
+<nav id="page-controls">
+<ul>
+<li>
+<a href="/" class="startNewSearch">Start new search</a>
+</li>
+<li>
+<a target="_blank"
+href="https://www.nationalarchives.gov.uk/help-with-your-research/discovery-help/">
+Discovery help</a>
+</li>
+</ul>
+</nav>
+</div>
+</section>
+<section class="row">
+<div class="col starts-at-full clr browse-box">
+<div class="breather">
+<h1 class="inline">Browse The National Archives' catalogue</h1>
+<a class="sit-right" href="/browse/r/r/C117">Browse by
+reference</a> 
+<a class="discoveryPrimaryCallToActionLink sit-right"
+title="Browse" href="/browse/h">
+<span>Browse home</span>
+</a>
+<section class="row">
+<div class="col starts-at-full clr box">
+<div class="breather-all">
+<section id="browse-wrapper" class="row holding-box breather">
+<div class="col starts-at-full ends-at-two-thirds clr">
+<h2 class="inline">Inside you will find</h2>
+<div class="browse-siblings">
+<div class="prev-first-links">
+<a class="first" href="/browse/r/h/C117/first/C117/C1146">First</a>
+<a class="previous" href="/browse/r/h/C117/prev/C117/C1146">Prev
+30</a>
+</div>
+<div class="next-last-links">
+<a class="next" href="/browse/r/h/C117/next/C141/C1146">Next 30</a>
+<a class="last" href="/browse/r/h/C117/last/C141/C1146">Last</a>
+</div>
+</div>
+<ul class="siblings-list">
+<li class="parent-expanded">
+<div class="item-details">
+<span class="item-reference">F</span> 
+<span class="covering-dates">1608-2016</span> 
+<span class="itemTitle">Records created or inherited by the
+Forestry Commission, and of related bodies</span>
+<p class="scopecontent">
+<span class="itemDescription">Records created or inherited by the
+Forestry Commission, and of related bodies relating to the
+regulation and conservation of woodlands and the growing and
+marketing of timber.</span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">Comprises records of:</span>
+</p>
+<ul>
+<li>
+<span class="itemDescription">Head Office, Committees and
+Councils;</span>
+</li>
+<li>
+<span class="itemDescription">Research Divisions;</span>
+</li>
+<li>
+<span class="itemDescription">Assistant Commissioners and
+Directors;</span>
+</li>
+<li>
+<span class="itemDescription">Director of Forestry for
+England;</span>
+</li>
+<li>
+<span class="itemDescription">New Forest;</span>
+</li>
+<li>
+<span class="itemDescription">Forest of Dean;</span>
+</li>
+<li>
+<span class="itemDescription">Department of Forestry;</span>
+</li>
+<li>
+<span class="itemDescription">Forestry Authority;</span>
+</li>
+<li>
+<span class="itemDescription">Forest Enterprise.</span>
+</li>
+</ul>
+<p class="scopecontent">
+<span class="itemDescription">F 7, F 41 and F 42 are numbers not
+used.</span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">For information on the appraisal and
+selection decisions applied to records created by the Forestry
+Commission relating to nature conservation, including recreational
+use of the countryside see 
+<a href="http://www.nationalarchives.gov.uk/documents/information-management/osp4.pdf">
+Operational Selection Policy OSP 4 The Use and Conservation of the
+Countryside for Recreational Purposes 1974 - 1983</a> and 
+<a href="http://www.nationalarchives.gov.uk/documents/information-management/osp10.pdf">
+Operational Selection Policy OSP 10 Nature Conservation in Great
+Britain 1973 - 1991</a>.</span>
+</p>
+<p class="scopecontent">
+<span class="itemDescription">For series created for regularly
+archived websites, please see the separate 
+<a href="http://discovery.nationalarchives.gov.uk/SearchUI/Details?uri=C1523"
+target="_blank">Websites Division</a>.</span>
+</p></div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C117">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C118">
+<span class="item-reference">FA</span> 
+<span title="1986-1992" class="covering-dates">1986-1992</span> 
+<span title="Records of the Office of Gas Supply (OFGAS)"
+class="item-title">Records of the Office of Gas Supply
+(OFGAS)</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C118">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C119">
+<span class="item-reference">FB</span> 
+<span title="1960-1991" class="covering-dates">1960-1991</span> 
+<span title="Records of the Central Bureau for Educational Visits and Exchanges"
+class="item-title">Records of the Central Bureau for Educational
+Visits and Exchanges</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C119">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C120">
+<span class="item-reference">FCO</span> 
+<span title="1918-2016" class="covering-dates">1918-2016</span> 
+<span title="Records of the Foreign and Commonwealth Office and predecessors"
+class="item-title">Records of the Foreign and Commonwealth Office
+and predecessors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C120">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C121">
+<span class="item-reference">FD</span> 
+<span title="1901-2017" class="covering-dates">1901-2017</span> 
+<span title="Records created or inherited by the Medical Research Council"
+class="item-title">Records created or inherited by the Medical
+Research Council</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C121">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C122">
+<span class="item-reference">FEC</span> 
+<span title="1552-1770" class="covering-dates">1552-1770</span> 
+<span title="Records of the Forfeited Estates Commission"
+class="item-title">Records of the Forfeited Estates
+Commission</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C122">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C407">
+<span class="item-reference">FERA</span> 
+<span title="1999-2015" class="covering-dates">1999-2015</span> 
+<span title="Records of the Food and Environment Research Agency"
+class="item-title">Records of the Food and Environment Research
+Agency</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C407">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C123">
+<span class="item-reference">FG</span> 
+<span title="1961-1992" class="covering-dates">1961-1992</span> 
+<span title="Records of the National Economic Development Council and National Economic Development Office"
+class="item-title">Records of the National Economic Development
+Council and National Economic Development Office</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C123">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C124">
+<span class="item-reference">FH</span> 
+<span title="1923-1991" class="covering-dates">1923-1991</span> 
+<span title="Records created or inherited by the National Bus Company"
+class="item-title">Records created or inherited by the National Bus
+Company</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C124">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C125">
+<span class="item-reference">FJ</span> 
+<span title="1948-2008" class="covering-dates">1948-2008</span> 
+<span title="Records created or inherited by the Commission for the New Towns and successors"
+class="item-title">Records created or inherited by the Commission
+for the New Towns and successors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C125">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C126">
+<span class="item-reference">FK</span> 
+<span title="1966-1970" class="covering-dates">1966-1970</span> 
+<span title="Records of the Office of the Secretary of State for Local Government and Regional Planning"
+class="item-title">Records of the Office of the Secretary of State
+for Local Government and Regional Planning</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C126">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C127">
+<span class="item-reference">FL</span> 
+<span title="1975-1997" class="covering-dates">1975-1997</span> 
+<span title="Records of the Adult Literacy Resource Agency and successors"
+class="item-title">Records of the Adult Literacy Resource Agency
+and successors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C127">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C128">
+<span class="item-reference">FM</span> 
+<span title="1986-2015" class="covering-dates">1986-2015</span> 
+<span title="Records of the Historic Buildings and Monuments Commission for England (English Heritage)"
+class="item-title">Records of the Historic Buildings and Monuments
+Commission for England (English Heritage)</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C128">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C129">
+<span class="item-reference">FN</span> 
+<span title="1965-1990" class="covering-dates">1965-1990</span> 
+<span title="Records of the Pilotage Commission"
+class="item-title">Records of the Pilotage Commission</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C129">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C130">
+<span class="item-reference">FO</span> 
+<span title="1567-2004" class="covering-dates">1567-2004</span> 
+<span title="Records created or inherited by the Foreign Office"
+class="item-title">Records created or inherited by the Foreign
+Office</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C130">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C131">
+<span class="item-reference">FP</span> 
+<span title="1968-2005" class="covering-dates">1968-2005</span> 
+<span title="Records of the Health Education Council and Successors"
+class="item-title">Records of the Health Education Council and
+Successors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C131">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C132">
+<span class="item-reference">FR</span> 
+<span title="1945-2015" class="covering-dates">1945-2015</span> 
+<span title="Records created or inherited by the Legal Aid Board, the Legal Services Commission, and predecessors"
+class="item-title">Records created or inherited by the Legal Aid
+Board, the Legal Services Commission, and predecessors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C132">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C133">
+<span class="item-reference">FS</span> 
+<span title="c.1784-1999" class="covering-dates">c.1784-1999</span>
+
+<span title="Records created or inherited by the Registry of Friendly Societies"
+class="item-title">Records created or inherited by the Registry of
+Friendly Societies</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C133">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C134">
+<span class="item-reference">FT</span> 
+<span title="1932-2009" class="covering-dates">1932-2009</span> 
+<span title="Records created or inherited by the Nature Conservancy, the Nature Conservancy Council and English Nature"
+class="item-title">Records created or inherited by the Nature
+Conservancy, the Nature Conservancy Council and English
+Nature</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C134">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C135">
+<span class="item-reference">FV</span> 
+<span title="1945-1993" class="covering-dates">1945-1993</span> 
+<span title="Records created or inherited by the Department of Trade and Industry, 1970-1974, and successors"
+class="item-title">Records created or inherited by the Department
+of Trade and Industry, 1970-1974, and successors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C135">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C136">
+<span class="item-reference">FW</span> 
+<span title="1988-1993" class="covering-dates">1988-1993</span> 
+<span title="Records of the National Curriculum Council"
+class="item-title">Records of the National Curriculum
+Council</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C136">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C137">
+<span class="item-reference">FY</span> 
+<span title="1933-1997" class="covering-dates">1933-1997</span> 
+<span title="Records of the Potato Marketing Boards"
+class="item-title">Records of the Potato Marketing
+Boards</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C137">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C411">
+<span class="item-reference">GCDA</span> 
+<span title="2002-2012" class="covering-dates">2002-2012</span> 
+<span title="Records of the Government Car and Despatch Agency"
+class="item-title">Records of the Government Car and Despatch
+Agency</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C411">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C390">
+<span class="item-reference">GEO</span> 
+<span title="1999-2013" class="covering-dates">1999-2013</span> 
+<span title="Records of the Government Equalities Office"
+class="item-title">Records of the Government Equalities
+Office</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C390">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C138">
+<span class="item-reference">GFM</span> 
+<span title="1839-1945" class="covering-dates">1839-1945</span> 
+<span title="Copies of captured records of the German, Italian and Japanese Governments."
+class="item-title">Copies of captured records of the German,
+Italian and Japanese Governments.</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C138">Details</a>
+</div>
+</li>
+<li class="leaf">
+<div class="item-details">
+<a href="/browse/r/h/C139">
+<span class="item-reference">GIRO</span> 
+<span title="-" class="covering-dates">-</span> 
+<span title="Records of the National Girobank and Predecessors"
+class="item-title">Records of the National Girobank and
+Predecessors</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C139">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C11996671">
+<span class="item-reference">GT</span> 
+<span title="2000-2012" class="covering-dates">2000-2012</span> 
+<span title="Records of the General Teaching Council for England"
+class="item-title">Records of the General Teaching Council for
+England</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C11996671">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C13362658">
+<span class="item-reference">GUK</span> 
+<span title="2012-2017" class="covering-dates">2012-2017</span> 
+<span title="Records of GOV.UK" class="item-title">Records of
+GOV.UK</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C13362658">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C140">
+<span class="item-reference">HA</span> 
+<span title="1998-2013" class="covering-dates">1998-2013</span> 
+<span title="Records of the Natural Environment Research Council"
+class="item-title">Records of the Natural Environment Research
+Council</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C140">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C141">
+<span class="item-reference">HB</span> 
+<span title="1990-1999" class="covering-dates">1990-1999</span> 
+<span title="Records of the Office of Electricity Regulation"
+class="item-title">Records of the Office of Electricity
+Regulation</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C141">Details</a>
+</div>
+</li>
+</ul>
+<div class="browse-siblings">
+<div class="prev-first-links">
+<a class="first" href="/browse/r/h/C117/first/C117/C1146">First</a>
+<a class="previous" href="/browse/r/h/C117/prev/C117/C1146">Prev
+30</a>
+</div>
+<div class="next-last-links">
+<a class="next" href="/browse/r/h/C117/next/C141/C1146">Next 30</a>
+<a class="last" href="/browse/r/h/C117/last/C141/C1146">Last</a>
+</div>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-third">
+<div id="browse-child-nodes-pagination">
+<div class="prev-first-links"></div>
+<div class="next-last-links"></div>
+</div>
+<ul class="child-list">
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1146">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1912-1997</span> 
+<span title="Records of the Head Office, Committees and Councils"
+class="item-title">Records of the Head Office, Committees and
+Councils</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1146">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1147">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1924-1997</span> 
+<span title="Records of the Research Divisions"
+class="item-title">Records of the Research Divisions</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1147">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1148">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1608-1978</span> 
+<span title="Records of Regional Organisation"
+class="item-title">Records of Regional Organisation</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1148">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1149">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1666-1958</span> 
+<span title="Records relating to Specific Forests"
+class="item-title">Records relating to Specific Forests</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1149">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1150">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1720-1993</span> 
+<span title="Records of the New Forest" class="item-title">Records
+of the New Forest</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1150">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1151">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">1662-1946</span> 
+<span title="Records of the Forest of Dean"
+class="item-title">Records of the Forest of Dean</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1151">Details</a>
+</div>
+</li>
+<li class="leaf">
+<div class="item-details">
+<a href="/browse/r/h/C1152">
+<span class="item-reference">Division within F</span> 
+<span title="Records of the Department of Forestry"
+class="item-title">Records of the Department of Forestry</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1152">Details</a>
+</div>
+</li>
+<li class="leaf">
+<div class="item-details">
+<a href="/browse/r/h/C1153">
+<span class="item-reference">Division within F</span> 
+<span title="Records of the Forestry Authority"
+class="item-title">Records of the Forestry Authority</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1153">Details</a>
+</div>
+</li>
+<li class="leaf">
+<div class="item-details">
+<a href="/browse/r/h/C1154">
+<span class="item-reference">Division within F</span> 
+<span title="Records of Forest Enterprise"
+class="item-title">Records of Forest Enterprise</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1154">Details</a>
+</div>
+</li>
+<li class="parent">
+<div class="item-details">
+<a href="/browse/r/h/C1523">
+<span class="item-reference">Division within F</span> 
+<span class="covering-dates">From 1997</span> 
+<span title="Forestry Commission: Departmental Websites, and Websites of Associated Agencies and Bodies"
+class="item-title">Forestry Commission: Departmental Websites, and
+Websites of Associated Agencies and Bodies</span></a>
+</div>
+<div class="details-link-wrapper">
+<a class="link-to-details" href="/details/r/C1523">Details</a>
+</div>
+</li>
+</ul>
+<div id="browse-child-nodes-pagination">
+<div class="prev-first-links"></div>
+<div class="next-last-links"></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</section></div>
+</div>
+</section>
+</div>
+<div class="container">
+<div class="newsletter-template">
+<div class="news-icon">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/tna-newsletter-icon.png"
+alt="TNA Newsletter Icon" />
+</div>
+<div class="news-content" id="newsletterAccessibility">
+<h2>Sign me up to the mailing list</h2>
+<p>Subscribe now for regular news, updates and priority booking for
+events</p>
+</div>
+<div class="news-form">
+<a href="https://www.nationalarchives.gov.uk/contact-us/email-updates/"
+class="call-to-action-link" style="margin-left:-5px">Sign up</a>
+<div class="small small-margin"
+style="margin-top:15px;margin-left:-5px">
+<a href="https://www.nationalarchives.gov.uk/legal/privacy-policy/"
+title="About our privacy policy">About our privacy policy</a>
+</div>
+</div>
+</div>
+</div>
+<div id="footer-wrapper">
+<div class="container">
+<div class="row">
+<div class="col starts-at-full ends-at-one-quarter footer-col clr">
+<div class="footer-left">
+<img src="https://discovery.nationalarchives.gov.uk:443/Content/Images/logo-white.png"
+srcset="https://discovery.nationalarchives.gov.uk:443/Content/Images/tna-square-white-logo.svg"
+alt="The National Archives" />
+<address>The National Archives
+<br />Kew, Richmond, Surrey,
+<br />TW9 4DU</address>
+</div>
+<div class="footer-left">
+<h4>Standard opening times</h4>
+<div class="opening-times">
+<div class="open_table">
+<div class="open_tableBody">
+<div class="open_tableRow">
+<div class="open_tableCell">Monday</div>
+<div class="open_tableCell">Closed</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Tuesday</div>
+<div class="open_tableCell">09:00 – 19:00</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Wednesday</div>
+<div class="open_tableCell">09:00 – 17:00</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Thursday</div>
+<div class="open_tableCell">09:00 – 19:00</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Friday</div>
+<div class="open_tableCell">09:00 – 17:00</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Saturday</div>
+<div class="open_tableCell">09:00 – 17:00</div>
+</div>
+<div class="open_tableRow">
+<div class="open_tableCell">Sunday</div>
+<div class="open_tableCell">Closed</div>
+</div>
+</div>
+</div>
+</div>
+<a href="https://www.nationalarchives.gov.uk/about/visit-us/opening-times/">Full
+opening times</a>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Find out more</h4>
+<ul>
+<li>
+<a href="https://www.nationalarchives.gov.uk/contact-us/">Contact
+us</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/about/press-room/">Press
+room</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/about/jobs/">Jobs and
+careers</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/">
+Friends of The National Archives</a>
+</li>
+</ul>
+</div>
+<div class="footer-left">
+<h4>Site help</h4>
+<ul>
+<li>
+<a href="https://www.nationalarchives.gov.uk/help/">Help</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/help/a-to-z/">Website
+A-Z index</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/help/web-accessibility/">
+Accessibility</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Websites</h4>
+<ul>
+<li>
+<a href="https://blog.nationalarchives.gov.uk/">Blog</a>
+</li>
+<li>
+<a href="https://media.nationalarchives.gov.uk/">Podcasts and
+videos</a>
+</li>
+<li>
+<a href="http://bookshop.nationalarchives.gov.uk/">Bookshop</a>
+</li>
+<li>
+<a href="https://images.nationalarchives.gov.uk/">Image library</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/webarchive/">UK
+Government Web Archive</a>
+</li>
+<li>
+<a href="https://www.legislation.gov.uk/" target="_blank"
+rel="noopener noreferrer">Legislation.gov.uk</a>
+</li>
+<li>
+<a href="https://www.thegazette.co.uk/" target="_blank"
+rel="noopener noreferrer">The Gazette</a>
+</li>
+</ul>
+</div>
+<div class="footer-left">
+<h4>Legal</h4>
+<ul>
+<li>
+<a href="https://www.nationalarchives.gov.uk/legal/">Terms of
+use</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/legal/privacy.htm">Privacy
+policy</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/legal/cookies.htm">Cookies</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/about/freedom-of-information/">
+Freedom of Information</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/about/our-role/transparency/">
+Transparency</a>
+</li>
+<li>
+<a href="https://www.nationalarchives.gov.uk/legal/our-fees.htm">Our
+fees</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col starts-at-full ends-at-one-quarter clr">
+<div class="footer-left">
+<h4>Follow us</h4>
+<div class="follow-us">
+<a href="https://twitter.com/UKNatArchives"
+title="Follow us on Twitter" target="_blank">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/twitter.png"
+alt="Twitter logo" />
+</a> 
+<a href="https://www.youtube.com/c/TheNationalArchivesUK"
+title="Follow us on YouTube" target="_blank">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/youtube-play.png"
+alt="YouTube logo" />
+</a> 
+<a href="https://www.flickr.com/photos/nationalarchives"
+title="Follow us on Flickr" target="_blank">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/flickr.png"
+alt="Flickr logo" />
+</a> 
+<a href="https://www.facebook.com/TheNationalArchives"
+title="Follow us on Facebook" target="_blank">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/facebook.png"
+alt="Facebook logo" />
+</a> 
+<a href="http://www.nationalarchives.gov.uk/rss/"
+title="Follow us via RSS">
+<img src="https://www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/social/rss.png"
+alt="RSS logo" />
+</a></div>
+</div>
+<div class="footer-left">
+<h4>Featured Flickr image</h4>
+<p id="flickr-caption" class="caption">Patented textile pattern by
+Christopher Dresser. 
+<a target="_blank" title="External website - opens in a new window"
+href="http://www.flickr.com/photos/nationalarchives/3208858799/in/set-72157608416657334/">
+EXT 9/104</a></p>
+<p id="flickr-image">
+<a target="_blank" title="External website - opens in a new window"
+href="http://www.flickr.com/photos/nationalarchives/3208858799/in/set-72157608416657334/">
+
+<img src="https://www.nationalarchives.gov.uk/images/global/featured-flickr-ext-9-104.jpg"
+alt="Patented textile pattern by Christopher Dresser." />
+</a>
+</p>
+</div>
+</div>
+</div>
+<!-- end row -->
+<div class="row footer-base">
+<div class="left">
+<a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/">
+
+<img alt="Open Government License logo"
+src="https://www.nationalarchives.gov.uk/images/global/logo-ogl.png" />
+</a>
+<p>All content is available under the 
+<a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/">
+Open Government Licence v3.0</a>,
+<br />except where otherwise stated</p>
+</div>
+<div class="right">
+<a class="footer-base-external-branding-gov-logo-adjust"
+title="External website - opens in a new window"
+href="https://gov.uk/" target="_blank">
+<img alt="GOV.UK logo"
+src="https://www.nationalarchives.gov.uk/images/global/gov-uk.png" />
+</a>
+</div>
+</div>
+<!-- end row external branding -->
+</div>
+<!-- end container -->
+</div>
+<!-- end footer-wrapper -->
+<div id="version">Version 6.0 - October 2019 - OffSite</div>
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2009 WebTrends Inc.  All rights reserved. -->
+<!-- Version: 8.6.2 -->
+<!-- Tag Builder Version: 3.0  -->
+<!-- Created: 8/4/2009 10:26:05 AM -->
+<script src="https://www.nationalarchives.gov.uk/script/webtrends.js"></script>
+
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+
+<script>
+        //&lt;![CDATA[        var _tag = new WebTrends();       
+_tag.dcsGetId();        //]]&gt;&gt;    
+</script> 
+<script>
+        //&lt;![CDATA[        // Add custom parameters here.       
+//_tag.DCSext.param_name=param_value;        _tag.dcsCollect();    
+               //]]&gt;&gt;    
+</script> 
+<noscript>
+<div>
+<img alt="DCSIMG" id="DCSIMG" width="1" height="1"
+src="https://smartsource.nationalarchives.gov.uk/dcsdhhxq6000004rry7ab39or_9h9r/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.6.2" />
+</div>
+</noscript> 
+<!-- END OF SmartSource Data Collector TAG --> 
+<!--[if lt IE 9]>        <script src="https://discovery.nationalarchives.gov.uk:443/Scripts/jquery-1.10.2.min.js"></script>        <script src="https://discovery.nationalarchives.gov.uk:443/Scripts/jquery-migrate-1.0.0.js"></script>    <![endif]-->
+
+<!--[if gte IE 9]><!--> 
+<script src="https://discovery.nationalarchives.gov.uk:443/Scripts/jquery-2.0.3.min.js">
+</script> 
+<!--<![endif]--> 
+<!-- TNA scripts --> 
+<script src="https://discovery.nationalarchives.gov.uk:443/Scripts/Build/discovery.03.10.2019.min.js">
+</script> 
+<!-- React Components --> 
+<script src="https://discovery.nationalarchives.gov.uk:443/Scripts/ReactComponents/discovery-1.1.8.js">
+</script> 
+<script src="https://nationalarchives.gov.uk/scripts/footer-img.js"
+defer="defer"></script></body>
+</html>

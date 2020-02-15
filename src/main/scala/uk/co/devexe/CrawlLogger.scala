@@ -7,7 +7,7 @@ import java.io.FileWriter
  */
 object CrawlLogger {
 
-  def log(text: String, fileName: String) = {
+  def log(text: String, fileName: String): Unit = {
     val fw = new FileWriter(fileName, true)
     try {
       fw.write(text + "\n")

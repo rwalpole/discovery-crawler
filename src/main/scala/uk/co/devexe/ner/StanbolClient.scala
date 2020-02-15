@@ -4,7 +4,7 @@ import java.io.InputStream
 import java.net.{HttpURLConnection, URL}
 
 /**
- * Created by walpolrx on 06/11/2015.
+ * Created by robkwalpole@gmail.com on 06/11/2015.
  */
 
 object StanbolClient {
